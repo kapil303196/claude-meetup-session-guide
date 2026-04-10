@@ -3,6 +3,8 @@
 > 129 attendees · April 2026 · Ahmedabad
 > No terminal needed — everything works in your browser at [claude.ai](https://claude.ai)
 
+> 💡 **All tools below are clickable links** — click any tool name to go directly to its website. No technical knowledge required.
+
 ---
 
 ## Quick Navigation
@@ -98,7 +100,7 @@
 **Building:** Not specified
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connects Gmail/LinkedIn/CRM for outbound sequences
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connects [Gmail](https://mail.google.com)/[LinkedIn](https://linkedin.com)/CRM for outbound sequences
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — researches prospects, drafts personalized cold outreach
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — spawn parallel agents per prospect segment
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — orchestrate multi-step outbound pipeline (research → draft → send → follow-up)
@@ -106,7 +108,7 @@
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — live prospect research before outreach
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — push outbound summaries to sales channel
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — push outbound summaries to sales channel
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -135,15 +137,15 @@ Draft 10 personalized cold emails for [ICP description]. Research each company w
 **Building:** Not specified
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate funnel touchpoints across email/Slack/Notion
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate funnel touchpoints across email/[Slack](https://slack.com)/[Notion](https://notion.so)
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — separate agents for outreach vs onboarding vs nurture
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — stitch full funnel pipeline as orchestrated workflow
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — generate onboarding docs and welcome sequences
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — write onboarding SOPs and client docs directly
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — automate client welcome messages
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — store and version onboarding materials
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — write onboarding SOPs and client docs directly
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — automate client welcome messages
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — store and version onboarding materials
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -173,13 +175,13 @@ Build onboarding checklist for new client [name]. Pull from Notion template, gen
 
 **Recommended Claude.ai Features:**
 - Caveman — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — token-efficient for daily task batching
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — link Gmail, calendar, invoicing tools
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — link [Gmail](https://mail.google.com), calendar, invoicing tools
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — proposals, reports, client comms
 - Everything Claude Code (ECC) — Available via [claude.ai](https://claude.ai) → Settings → Skills — full workflow harness
 
 **Recommended Integrations:**
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read/write local docs and templates
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — manage client deliverables
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — manage client deliverables
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -210,11 +212,11 @@ Review my week's emails (paste 5 threads). Summarize action items per client, dr
 **Recommended Claude.ai Features:**
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — agents per business function (ops/service/admin)
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — orchestrate multi-department ops workflows
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — integrate ops tools (Slack, email, sheets)
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — integrate ops tools ([Slack](https://slack.com), email, sheets)
 - changelog-generator — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — track ops process changes over time
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — SOPs, process docs, runbooks
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — SOPs, process docs, runbooks
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — local ops data access
 
 **Quick Win:**
@@ -251,7 +253,7 @@ Map my current ops workflow: [describe process]. Identify 3 bottlenecks. Suggest
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — trend research before content creation
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — store content calendar and drafts
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — store content calendar and drafts
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -287,7 +289,7 @@ Topic: [your niche]. Research top 5 trending angles this week. For each: write L
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — research prospects before calls
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — deal update notifications to team
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — deal update notifications to team
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -353,14 +355,14 @@ Give me a tour of your most powerful capabilities. For each: what it does, examp
 **Building:** Not specified
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connect all comms channels (email/WhatsApp/Slack/SMS)
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connect all comms channels (email/[WhatsApp](https://web.whatsapp.com)/[Slack](https://slack.com)/SMS)
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — parallel agents per funnel stage
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — orchestrate full funnel: trigger → segment → message → track
 - playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate web-based funnel steps
 
 **Recommended Integrations:**
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — funnel events pushed to Slack
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — funnel SOPs and sequence templates
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — funnel events pushed to [Slack](https://slack.com)
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — funnel SOPs and sequence templates
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -428,12 +430,12 @@ I'm redesigning [product/screen]. Analyze these 3 competitor URLs for UX pattern
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — RFP response drafting from templates
 - connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate lead capture into CRM
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — one agent researches RFP, one drafts, one reviews
-- playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — scrape leads from directories/LinkedIn
+- playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — scrape leads from directories/[LinkedIn](https://linkedin.com)
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — research RFP issuing organizations before responding
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read past RFP responses as reference corpus
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — pull company capability docs for RFP inputs
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — pull company capability docs for RFP inputs
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -542,7 +544,7 @@ I want to agentify [describe business process]. Design agent architecture: agent
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — prospect intelligence before outreach
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — deal stage alerts to sales team
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — deal stage alerts to sales team
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -579,7 +581,7 @@ Create 5-touch nurture sequence for [ICP]. Touch 1: value-add insight. Touch 2: 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query analysis and optimization (closest available to Cosmos DB query patterns)
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read legacy code files directly
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — track refactor PRs and code review
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — track refactor PRs and code review
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -644,14 +646,14 @@ Research [topic] with original insight. Rules: no generic summaries, cite specif
 **Building:** Local apps for team data capture
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — pull from Gmail + Google Sheets in one workflow
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — pull from [Gmail](https://mail.google.com) + [Google Sheets](https://sheets.google.com) in one workflow
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — separate agents per data source (photos vs emails vs team inputs)
 - playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate web form submissions and data capture
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — orchestrate multi-source data → unified sheet pipeline
 
 **Recommended Integrations:**
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read photo files and email exports locally
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — write structured output directly to Sheets
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — write structured output directly to Sheets
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -689,7 +691,7 @@ Here are 10 email threads from marketing team [paste]. Extract into table: Date 
 **Recommended Integrations:**
 - **Claude Memory** — Enable at [claude.ai](https://claude.ai) → Settings → Memory → turn on "Memory" — RAG-adjacent: persistent knowledge across agent runs
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — vector store queries if using pgvector for RAG
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — agent codebase management
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — agent codebase management
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -727,7 +729,7 @@ Design RAG agent for [use case]. Spec: ingestion pipeline, chunking strategy, re
 **Recommended Integrations:**
 - **Claude Memory** — Enable at [claude.ai](https://claude.ai) → Settings → Memory → turn on "Memory" — shared state across agent instances
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — pgvector-backed retrieval for RAG
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — version and review agent code
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version and review agent code
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -756,15 +758,15 @@ I'm building a RAG agent. Here's my current retrieval code: [paste]. Identify: r
 **Building:** Automated financial reporting with Claude and NetSuite
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — NetSuite + Slack + email integration
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — NetSuite + [Slack](https://slack.com) + email integration
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — separate agents per report type (budget vs actuals vs variance)
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — scheduled closing status monitoring pipeline
 - Caveman — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — token-efficient on large financial data sets
 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query financial DB for actuals vs budget
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — push closing status alerts to finance team
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — store and distribute financial reports
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — push closing status alerts to finance team
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — store and distribute financial reports
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -801,7 +803,7 @@ Here is budget data [paste] and actuals [paste]. Generate variance analysis: for
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — directly query DB to verify BU/Handover data existence
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read report templates and source code locally
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — review recent changes that may have broken fetch
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — review recent changes that may have broken fetch
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -830,15 +832,15 @@ Here is my data fetch code for BU and Handover: [paste]. Here is the API/DB resp
 **Building:** COWORK (coworking space management)
 
 **Recommended Claude.ai Features:**
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connect booking systems, email, Slack, invoicing
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — connect booking systems, email, [Slack](https://slack.com), invoicing
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — agents per ops function (bookings/billing/member comms)
 - Ruflo — Use **Projects** in [claude.ai](https://claude.ai) (left sidebar → New Project) for organized AI workspaces — orchestrate daily ops: check-ins, invoicing, capacity alerts
 - playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — automate web-based booking workflows
 
 **Recommended Integrations:**
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — member notifications, space alerts
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — member database, SOPs, space booking docs
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — invoices, contracts, reports
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — member notifications, space alerts
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — member database, SOPs, space booking docs
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — invoices, contracts, reports
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -873,8 +875,8 @@ Daily COWORK ops report: pull today's bookings [source], check capacity, flag ov
 - changelog-generator — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — version internal SOPs and protocol changes
 
 **Recommended Integrations:**
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — automate internal team comms
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — store and trigger communication protocols
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — automate internal team comms
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — store and trigger communication protocols
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read internal process docs
 
 **Quick Win:**
@@ -911,7 +913,7 @@ Map our internal communication protocols: [describe 3 key workflows e.g. client 
 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query ERP/accounting DB for reconciliation data
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — pull GST and 26AS Excel/CSV files
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — pull GST and 26AS Excel/CSV files
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read downloaded ERP exports locally
 
 **Quick Win:**
@@ -948,7 +950,7 @@ Here is GSTR-2B data [paste/attach] and purchase register [paste/attach]. Reconc
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — SERP analysis and keyword research
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — content calendar and article storage
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — content calendar and article storage
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — manage local content files
 
 **Quick Win:**
@@ -1015,13 +1017,13 @@ I work in [describe your role and daily tasks]. What are 5 specific tasks I do w
 
 **Recommended Claude.ai Features:**
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — thought leadership content to attract inbound leads
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — LinkedIn + email integration for outreach
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — [LinkedIn](https://linkedin.com) + email integration for outreach
 - playwright-browser-automation — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — research target patient/client segments
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — content agent + outreach agent running in parallel
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — research topics that resonate with target audience
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — content calendar and lead tracking
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — content calendar and lead tracking
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1056,8 +1058,8 @@ I'm a doctor specializing in [specialty]. Write 4 LinkedIn posts for this week: 
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — parallel agents per doc type (API docs / user guides / SOPs)
 
 **Recommended Integrations:**
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — pull code and PRs to auto-document
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — publish docs directly to Notion
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — pull code and PRs to auto-document
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — publish docs directly to [Notion](https://notion.so)
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read source files for doc generation
 
 **Quick Win:**
@@ -1094,7 +1096,7 @@ Here is my codebase / product spec: [paste or point to files]. Generate: README,
 - Code Review Graph — Connect via [claude.ai](https://claude.ai) → Settings → Integrations — understand agent code structure
 
 **Recommended Integrations:**
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — marketing campaign alerts and approvals
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — marketing campaign alerts and approvals
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — market research agents
 - **Claude Memory** — Enable at [claude.ai](https://claude.ai) → Settings → Memory → turn on "Memory" — shared campaign context across agents
 
@@ -1132,7 +1134,7 @@ Design MCP agent infrastructure for marketing automation. Requirements: content 
 
 **Recommended Integrations:**
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read/write assignment files directly
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — manage assignment repos
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — manage assignment repos
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1162,13 +1164,13 @@ Here is my assignment brief: [paste]. Here is my current code/design: [paste]. R
 
 **Recommended Claude.ai Features:**
 - subagent-driven-development — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — separate agents per audit section
-- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — pull accounting data from Tally/Zoho/ERP
+- connect-apps (Composio) — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — pull accounting data from [Tally](https://tallysolutions.com)/[Zoho](https://zoho.com)/ERP
 - Caveman — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — token-efficient on large financial document batches
 - content-research-writer — **How to use:** Go to [claude.ai](https://claude.ai) → Settings → Skills → Browse Skills → search and install — draft audit reports and management letters
 
 **Recommended Integrations:**
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read trial balance, ledgers, financial statements locally
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — access client financial files
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — access client financial files
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1240,7 +1242,7 @@ Audit my last week of work: [describe 5-10 tasks you did]. For each, classify: C
 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query project cost and revenue data
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — read/write P&L and inventory sheets
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — read/write P&L and inventory sheets
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — process local financial exports
 
 **Quick Win:**
@@ -1278,7 +1280,7 @@ Here is project data [paste: revenue, cost lines by project]. Build project-wise
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — live research for analysis projects
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — manage code projects
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — manage code projects
 - **Claude Memory** — Enable at [claude.ai](https://claude.ai) → Settings → Memory → turn on "Memory" — persist research context
 
 **Quick Win:**
@@ -1315,7 +1317,7 @@ Build a research agent for topic: [specify]. Agent should: search for sources, e
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — trending topics and competitor research
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — creative asset and content calendar storage
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — creative asset and content calendar storage
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1350,7 +1352,7 @@ Business: [describe]. Target audience: [describe]. Generate this week's content:
 - Code Review Graph — Connect via [claude.ai](https://claude.ai) → Settings → Integrations — understand platform codebase as it grows
 
 **Recommended Integrations:**
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — manage travel platform codebase
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — manage travel platform codebase
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — research travel APIs, competitor features
 - **google-maps** — Upload relevant data files into [claude.ai](https://claude.ai) chat using the paperclip icon — location intelligence for travel platform
 
@@ -1388,8 +1390,8 @@ I'm building a travel tech platform. Feature needed: [describe]. Design: compone
 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query sales and billing database
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — distribute reports to management
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — push daily sales numbers to team channel
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — distribute reports to management
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — push daily sales numbers to team channel
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1425,8 +1427,8 @@ Here is this month's sales data [paste]. Generate: target tracker showing Rep | 
 
 **Recommended Integrations:**
 - **File Upload** — In any [claude.ai](https://claude.ai) chat, click the paperclip icon to upload Excel, PDF, Word, or CSV files — read raw logger CSV/Excel files locally
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — store and distribute validation reports
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — maintain validation protocol templates
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — store and distribute validation reports
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — maintain validation protocol templates
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1462,7 +1464,7 @@ Here is raw data logger output: [paste]. Equipment: [name]. Validation phase: IQ
 - Everything Claude Code (ECC) — Available via [claude.ai](https://claude.ai) → Settings → Skills — full refactor/build harness
 
 **Recommended Integrations:**
-- **GitHub** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → GitHub → Connect — manage platform codebase, track issues
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — manage platform codebase, track issues
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — compliance data store and query layer
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — monitor regulatory updates in real time
 
@@ -1500,7 +1502,7 @@ Here is my compliance platform code: [paste or point to files]. It's currently s
 
 **Recommended Integrations:**
 - **Deep Research** — In [claude.ai](https://claude.ai) chat, click "Deep Research" to have Claude research the web for you — research corporate wellness market, employer pain points
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — build employer insight database
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — build employer insight database
 - **Claude Memory** — Enable at [claude.ai](https://claude.ai) → Settings → Memory → turn on "Memory" — accumulate employer mindset insights across research sessions
 
 **Quick Win:**
@@ -1537,8 +1539,8 @@ Research: why do Indian corporates adopt or reject employee wellness programs? F
 
 **Recommended Integrations:**
 - **Data Analysis** — Upload your data export (CSV/Excel) directly into [claude.ai](https://claude.ai) chat using the paperclip icon — query underlying data sources for KPI calculation
-- **Google Drive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Drive → Connect — pull source data files and push dashboard outputs
-- **Slack** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Slack → Connect — push KPI alerts and anomaly notifications
+- **[Google Drive](https://drive.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Drive](https://drive.google.com) → Connect — pull source data files and push dashboard outputs
+- **[Slack](https://slack.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Slack](https://slack.com) → Connect — push KPI alerts and anomaly notifications
 
 **Quick Win:**
 Open [claude.ai](https://claude.ai) and paste this into the chat:
@@ -1578,7 +1580,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:codebase-onboarding` — helps her (or teammates) get context fast when returning to the project
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — data modeling directly in Postgres with schema migrations, perfect for her use case
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — data modeling directly in Postgres with schema migrations, perfect for her use case
 - **Sqlite** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sqlite → Connect — lightweight local data modeling without cloud setup overhead
 
 **Quick Win — Try This:**
@@ -1613,7 +1615,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 ---
 
 ### Vishvam — Startup Founder (Bazuki Aura Studio)
-**Burning Problem:** Scattered customer data across Meta/Google Ads, Shopify, WhatsApp, Instagram, ERP, purchase history, reviews — needs real-time profit-driving decisions for D2C brands
+**Burning Problem:** Scattered customer data across Meta/Google Ads, [Shopify](https://shopify.com), [WhatsApp](https://web.whatsapp.com), [Instagram](https://instagram.com), ERP, purchase history, reviews — needs real-time profit-driving decisions for D2C brands
 **Building:** AI-based perfumery brand + campaign workflows on Amazon/Flipkart/Meta
 
 **CEO Take:** Building a D2C intelligence layer — unified data → AI analysis → actionable spend decisions. This is exactly what Northbeam/Triple Whale do for Western brands; Vishvam needs the Indian D2C version. First-mover advantage in India.
@@ -1623,12 +1625,12 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:content-engine` — generates product descriptions, ad copy, campaign creatives at scale
 - `claude skills add ecc:market-research` — competitive intelligence on fragrance/D2C market, pricing analysis
 - `claude skills add ecc:deep-research` — deep dives on customer segments, India D2C trends, category insights
-- `claude skills add ecc:api-connector-builder` — builds connectors between Shopify, Meta Ads API, WhatsApp Business API
+- `claude skills add ecc:api-connector-builder` — builds connectors between [Shopify](https://shopify.com), Meta Ads API, [WhatsApp Business API](https://business.whatsapp.com)
 
 **Recommended Integrations:**
-- **Shopify** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Shopify → Connect — direct Shopify order/product/customer data access, zero export needed
+- **[Shopify](https://shopify.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Shopify](https://shopify.com) → Connect — direct [Shopify](https://shopify.com) order/product/customer data access, zero export needed
 - **Settings → Integrations** (via `npx @modelcontextprotocol/server-google-ads`) — pull campaign performance metrics in real-time
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — unified data layer: dump all sources into Airtable, Claude reads/writes it
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — unified data layer: dump all sources into [Airtable](https://airtable.com), Claude reads/writes it
 
 **Quick Win — Try This:**
 > ```
@@ -1671,7 +1673,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:security-review` — catches unsafe memory patterns, buffer overflows in firmware code
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — track firmware versions, manage PRs for hardware revisions, issue tracking for bugs
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — track firmware versions, manage PRs for hardware revisions, issue tracking for bugs
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read/write local firmware source trees, linker scripts, device tree files
 
 **Quick Win — Try This:**
@@ -1716,8 +1718,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:strategic-compact` — distills strategy documents into crisp exec-level summaries
 
 **Recommended Integrations:**
-- **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — read existing docs/decks, write outputs directly to Google Drive
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — automatically schedule implementation milestones after planning sessions
+- **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — read existing docs/decks, write outputs directly to [Google Drive](https://drive.google.com)
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — automatically schedule implementation milestones after planning sessions
 
 **Quick Win — Try This:**
 > ```
@@ -1761,8 +1763,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:brand-voice` — maintains consistent brand voice across 30 days of content without repetition
 
 **Recommended Integrations:**
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — store the full content calendar, Claude writes directly to it row by row
-- **Google Sheets** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Sheets → Connect — output 30-day calendar as Google Sheet, shareable with team instantly
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — store the full content calendar, Claude writes directly to it row by row
+- **[Google Sheets](https://sheets.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Sheets](https://sheets.google.com) → Connect — output 30-day calendar as Google Sheet, shareable with team instantly
 
 **Quick Win — Try This:**
 > ```
@@ -1805,9 +1807,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:customer-billing-ops` — automates order confirmation, invoice generation, customer comms
 
 **Recommended Integrations:**
-- **Shopify** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Shopify → Connect — read product catalog, write updated descriptions, manage inventory directly
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — product catalog management, bulk update pipeline
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — connect Shopify → customer support → WhatsApp notification flows
+- **[Shopify](https://shopify.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Shopify](https://shopify.com) → Connect — read product catalog, write updated descriptions, manage inventory directly
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — product catalog management, bulk update pipeline
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — connect [Shopify](https://shopify.com) → customer support → [WhatsApp](https://web.whatsapp.com) notification flows
 
 **Quick Win — Try This:**
 > ```
@@ -1846,11 +1848,11 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:frontend-design` — generates complete, beautiful UI with no design background needed
 - `claude skills add ecc:frontend-patterns` — produces production-ready component patterns (nav, hero, contact form, footer)
-- `claude skills add ecc:deployment-patterns` — deploys to Vercel/Netlify in one command after Claude builds it
+- `claude skills add ecc:deployment-patterns` — deploys to [Vercel](https://vercel.com)/[Netlify](https://netlify.com) in one command after Claude builds it
 - `claude skills add ecc:design-system` — creates consistent visual language (colors, fonts, spacing) for the site
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control for site, deploy via GitHub Actions to Vercel
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control for site, deploy via [GitHub](https://github.com) Actions to [Vercel](https://vercel.com)
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — Claude writes all HTML/CSS/JS files directly to local folder
 
 **Quick Win — Try This:**
@@ -1893,8 +1895,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:product-lens` — frames business problems as product opportunities
 
 **Recommended Integrations:**
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — once opportunities are identified, Zapier handles the no-code automation layer
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — capture the automation map and track what gets built
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — once opportunities are identified, [Zapier](https://zapier.com) handles the no-code automation layer
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — capture the automation map and track what gets built
 
 **Quick Win — Try This:**
 > ```
@@ -1931,7 +1933,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Complete employee workflow needed: todo management, KRA tracking, reminders, auto points/gamification system
 **Building:** Todo software with reminders and points
 
-**CEO Take:** Building an internal HR gamification + performance tool. This is a real product with real demand. WhatsApp notifications, KRA scoring, leaderboards — done right, this becomes a sellable SaaS.
+**CEO Take:** Building an internal HR gamification + performance tool. This is a real product with real demand. [WhatsApp](https://web.whatsapp.com) notifications, KRA scoring, leaderboards — done right, this becomes a sellable SaaS.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:tdd` — builds the points calculation engine with test coverage — gamification math must be correct
@@ -1941,9 +1943,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:deployment-patterns` — containerizes and deploys so employees can access from day one
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — backend: users, tasks, KRA scores, points ledger, real-time leaderboard via Supabase
-- **Settings → Integrations** (via Zapier or direct) — WhatsApp/SMS reminders when KRA deadlines approach or points milestones hit
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — HR uses Airtable to define KRAs per role, Claude reads and syncs
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — backend: users, tasks, KRA scores, points ledger, real-time leaderboard via [Supabase](https://supabase.com)
+- **Settings → Integrations** (via [Zapier](https://zapier.com) or direct) — [WhatsApp](https://web.whatsapp.com)/SMS reminders when KRA deadlines approach or points milestones hit
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — HR uses [Airtable](https://airtable.com) to define KRAs per role, Claude reads and syncs
 
 **Quick Win — Try This:**
 > ```
@@ -1992,8 +1994,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read local report files (PDF, DOCX, XLSX) directly into Claude context
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — store extracted insights, build searchable report intelligence database
-- **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — ingest reports directly from Google Drive, output summaries back
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — store extracted insights, build searchable report intelligence database
+- **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — ingest reports directly from [Google Drive](https://drive.google.com), output summaries back
 
 **Quick Win — Try This:**
 > ```
@@ -2038,7 +2040,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 
 **Recommended Integrations:**
 - **Settings → Integrations** (already in project) — replaces file scanning with graph queries: 10x fewer tokens for same code understanding
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — for management system: structured queries instead of loading entire dataset into context
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — for management system: structured queries instead of loading entire dataset into context
 
 **Quick Win — Try This:**
 > ```
@@ -2097,9 +2099,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add claude-seo:seo-programmatic` — programmatic SEO: auto-generates city × sport × venue type landing pages
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — CMS backend for programmatic SEO pages: sports venues by city/sport/type
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — automate content publishing pipeline via GitHub Actions → Vercel deploy
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — content calendar management, SEO keyword tracking, editorial workflow
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — CMS backend for programmatic SEO pages: sports venues by city/sport/type
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — automate content publishing pipeline via [GitHub](https://github.com) Actions → [Vercel](https://vercel.com) deploy
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — content calendar management, SEO keyword tracking, editorial workflow
 
 **Quick Win — Try This:**
 > ```
@@ -2149,9 +2151,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:api-design` — designs the REST API contract between PHP backend and Android/iOS clients
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — PR-based code review for API changes, track permission fixes
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — PR-based code review for API changes, track permission fixes
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read Apache config files, .htaccess, PHP files for debugging 403s
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — consider migrating notification state to Supabase Realtime for push notifications
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — consider migrating notification state to [Supabase](https://supabase.com) Realtime for push notifications
 
 **Quick Win — Try This:**
 > ```
@@ -2200,12 +2202,12 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:content-engine` — complete content pipeline: brief → research → draft → edit → SEO optimize
 - `claude skills add ecc:brand-voice` — maintains consistent voice across all content types without repetition
-- `claude skills add ecc:crosspost` — formats single piece of content for multiple platforms (blog → LinkedIn → Twitter → Instagram caption)
+- `claude skills add ecc:crosspost` — formats single piece of content for multiple platforms (blog → [LinkedIn](https://linkedin.com) → Twitter → [Instagram](https://instagram.com) caption)
 - `claude skills add ecc:article-writing` — long-form article writing with research integration and source citation
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — content database: drafts, published, calendar — Claude writes directly to Notion
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — Notion → Buffer/Later auto-scheduling when content is approved
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — content database: drafts, published, calendar — Claude writes directly to [Notion](https://notion.so)
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — [Notion](https://notion.so) → Buffer/Later auto-scheduling when content is approved
 
 **Quick Win — Try This:**
 > ```
@@ -2246,7 +2248,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Real-time reporting dashboards, automate forecast vs actual variance analysis
 **Building:** Financial Planning, Board reporting, marketing efficiency metrics, Google Apps Script coding
 
-**CEO Take:** Finance + BI automation is one of highest-ROI Claude use cases. Google Sheets + Apps Script + Claude = board-ready variance reports generated automatically. This frees up analyst time from formatting to actual analysis.
+**CEO Take:** Finance + BI automation is one of highest-ROI Claude use cases. [Google Sheets](https://sheets.google.com) + Apps Script + Claude = board-ready variance reports generated automatically. This frees up analyst time from formatting to actual analysis.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:dashboard-builder` — builds financial dashboards: P&L, forecast vs actual, marketing efficiency KPIs
@@ -2255,9 +2257,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:docs` — auto-generates board commentary from variance data: "Revenue was 12% below forecast due to..."
 
 **Recommended Integrations:**
-- **Google Sheets** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Sheets → Connect — direct read/write to financial models, budget sheets, actuals trackers
+- **[Google Sheets](https://sheets.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Sheets](https://sheets.google.com) → Connect — direct read/write to financial models, budget sheets, actuals trackers
 - **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — pulls board presentation files, updates them with new month's data automatically
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — marketing attribution data: channel spend vs pipeline vs revenue
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — marketing attribution data: channel spend vs pipeline vs revenue
 
 **Quick Win — Try This:**
 > ```
@@ -2303,9 +2305,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:investor-materials` — generates IP deal memos: asset description, valuation rationale, comparable transactions
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — track open-source IP, license violations, code-based IP assets
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — IP deal pipeline: prospects, stage, valuation, buyer matches, status
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — alert workflows: USPTO new filing alerts → Airtable → email notification when target IP category gets new filings
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — track open-source IP, license violations, code-based IP assets
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — IP deal pipeline: prospects, stage, valuation, buyer matches, status
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — alert workflows: USPTO new filing alerts → [Airtable](https://airtable.com) → email notification when target IP category gets new filings
 
 **Quick Win — Try This:**
 > ```
@@ -2349,11 +2351,11 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:backend-patterns` — builds the API layer for both apps: transcription processing + kirana inventory/billing
 - `claude skills add ecc:flutter-build` — single Flutter codebase covers Android (90% of Indian kirana store phones) + iOS
 - `claude skills add ecc:tdd` — testing for billing math — kirana GST calculations must be exact
-- `claude skills add ecc:api-connector-builder` — connects AssemblyAI/Deepgram webhook → transcript storage → summary generation
+- `claude skills add ecc:api-connector-builder` — connects [AssemblyAI](https://assemblyai.com)/[Deepgram](https://deepgram.com) webhook → transcript storage → summary generation
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — backend for both apps: transcripts, kirana inventory, billing history
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control + CI/CD for both apps
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — backend for both apps: transcripts, kirana inventory, billing history
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control + CI/CD for both apps
 
 **Quick Win — Try This:**
 > ```
@@ -2409,7 +2411,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:tdd` — adds tests around the buggy code so fixes don't regress
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — links bugs to specific commits, tracks fix PRs, prevents regression
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — links bugs to specific commits, tracks fix PRs, prevents regression
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — reads crash logs, stack traces, device logs directly into Claude context
 
 **Quick Win — Try This:**
@@ -2457,7 +2459,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:iterative-retrieval` — multi-round research: first pass finds broad sources, second pass deepens specific areas
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — research database: papers read, notes, quotes, bibliography — Claude writes and organizes
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — research database: papers read, notes, quotes, bibliography — Claude writes and organizes
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — reads PDF papers directly, extracts key arguments and data points
 
 **Quick Win — Try This:**
@@ -2506,16 +2508,16 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **CEO Take:** SaaS marketing without a system is expensive and slow. Need: sharp ICP definition → positioning → content machine → outbound sequences → case study proof → SEO moat. Claude handles the content; distribution needs dedicated tool investment.
 
 **Recommended Claude.ai Features:**
-- `claude skills add ecc:content-engine` — blog posts, LinkedIn articles, case studies, landing page copy at scale
+- `claude skills add ecc:content-engine` — blog posts, [LinkedIn](https://linkedin.com) articles, case studies, landing page copy at scale
 - `claude skills add ecc:market-research` — ICP research, competitor positioning analysis, pricing benchmarks
 - `claude skills add ecc:seo` — keyword strategy for SaaS category, programmatic content for long-tail terms
 - `claude skills add ecc:investor-outreach` — cold outreach sequences for enterprise SaaS sales
 - `claude skills add ecc:brand-voice` — consistent messaging across all channels — critical for SaaS trust building
 
 **Recommended Integrations:**
-- **Settings → Integrations** (via Zapier MCP or direct HubSpot MCP) — CRM-connected outbound: sequences, deal tracking, email automation
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — content calendar: planned, in-progress, published, performance data
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — content published → auto-post to LinkedIn + Twitter + email newsletter
+- **Settings → Integrations** (via [Zapier](https://zapier.com) MCP or direct [HubSpot](https://hubspot.com) MCP) — CRM-connected outbound: sequences, deal tracking, email automation
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — content calendar: planned, in-progress, published, performance data
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — content published → auto-post to [LinkedIn](https://linkedin.com) + Twitter + email newsletter
 
 **Quick Win — Try This:**
 > ```
@@ -2561,14 +2563,14 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:openclaw-persona-forge` — builds persistent AI personas with defined knowledge base, tone, and decision rules
 - `claude skills add ecc:autonomous-agent-harness` — creates the agent loop: trigger → research → respond → escalate to human
-- `claude skills add ecc:api-connector-builder` — connects the agent to CRM, email, LinkedIn, calendar for end-to-end automation
+- `claude skills add ecc:api-connector-builder` — connects the agent to CRM, email, [LinkedIn](https://linkedin.com), calendar for end-to-end automation
 - `claude skills add ecc:agent-eval` — evaluates agent response quality before it sends — catches off-brand or incorrect answers
 - `claude skills add ecc:lead-intelligence` — enriches inbound leads with company/role data before agent engages
 
 **Recommended Integrations:**
 - **Settings → Integrations** (via Zapier) — agent reads new leads, updates deal stages, logs all conversations automatically
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — agent drafts and (with approval) sends personalized outreach emails
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — trigger agent on new form submission, LinkedIn message, or website chat
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — agent drafts and (with approval) sends personalized outreach emails
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — trigger agent on new form submission, [LinkedIn](https://linkedin.com) message, or website chat
 
 **Quick Win — Try This:**
 > ```
@@ -2617,8 +2619,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:investor-materials` — builds pitch deck narrative, financial projections, investor FAQs
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — research knowledge base: stores all analyses, can be queried later
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — competitive intelligence tracker: rivals, their features, pricing, funding, news
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — research knowledge base: stores all analyses, can be queried later
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — competitive intelligence tracker: rivals, their features, pricing, funding, news
 
 **Quick Win — Try This:**
 > ```
@@ -2659,7 +2661,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Build school bus live tracking app — GPS from driver's phone → real-time location to parents
 **Building:** Pinterest photo automation + Canvas + school bus tracking app
 
-**CEO Take:** No-code path exists and is the right path here. Flutter + Firebase + Google Maps API. Claude writes 100% of the code. Ashish's job: copy, configure, deploy. Fully achievable in a weekend with Claude's help.
+**CEO Take:** No-code path exists and is the right path here. Flutter + [Firebase](https://firebase.google.com) + Google Maps API. Claude writes 100% of the code. Ashish's job: copy, configure, deploy. Fully achievable in a weekend with Claude's help.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:flutter-build` — Claude generates complete Flutter app code, Ashish just pastes and runs
@@ -2668,8 +2670,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:docs` — generates user manual and setup instructions Ashish can share with school
 
 **Recommended Integrations:**
-- **Settings → Integrations** (via CLI integration) — Firebase Realtime Database for live GPS updates + Firebase Auth for parent/driver login
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — store code, Claude commits changes when things break
+- **Settings → Integrations** (via CLI integration) — [Firebase](https://firebase.google.com) Realtime Database for live GPS updates + [Firebase](https://firebase.google.com) Auth for parent/driver login
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — store code, Claude commits changes when things break
 
 **Quick Win — Try This:**
 > ```
@@ -2720,9 +2722,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:tdd` — builds assessment quizzes with automated scoring to track fresher progress
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — training wiki: modules, exercises, checkpoints, progress tracking
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — fresher progress tracker: who completed what, assessment scores, mentor notes
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — automation: fresher completes module → get next assignment → notify mentor
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — training wiki: modules, exercises, checkpoints, progress tracking
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — fresher progress tracker: who completed what, assessment scores, mentor notes
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — automation: fresher completes module → get next assignment → notify mentor
 
 **Quick Win — Try This:**
 > ```
@@ -2773,8 +2775,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:springboot-security` or `claude skills add ecc:django-patterns` — production-grade auth patterns (depending on stack)
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — backend as a service: auth, DB, storage, edge functions — fastest SaaS foundation
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — CI/CD pipelines, feature branches, automated testing on PR
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — backend as a service: auth, DB, storage, edge functions — fastest SaaS foundation
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — CI/CD pipelines, feature branches, automated testing on PR
 - **Settings → Integrations** (via Zapier) — subscription billing, metered usage, invoice automation
 
 **Quick Win — Try This:**
@@ -2815,7 +2817,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Sales and marketing automation for small business
 **Building:** Automation systems
 
-**CEO Take:** Small business sales + marketing automation = three loops: (1) generate leads, (2) nurture leads, (3) convert and retain. Each loop can be automated. Claude builds the content and logic; n8n/Zapier runs it.
+**CEO Take:** Small business sales + marketing automation = three loops: (1) generate leads, (2) nurture leads, (3) convert and retain. Each loop can be automated. Claude builds the content and logic; [n8n](https://n8n.io)/[Zapier](https://zapier.com) runs it.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:content-engine` — generates marketing content: emails, social posts, landing pages, proposals
@@ -2824,9 +2826,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:automation-audit-ops` — maps current sales process, identifies where time is lost
 
 **Recommended Integrations:**
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — connects all tools: new lead → CRM → nurture sequence → follow-up reminder
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — connects all tools: new lead → CRM → nurture sequence → follow-up reminder
 - **Settings → Integrations** (via Zapier) — CRM for lead tracking, deal pipeline, email sequence management
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — if HubSpot is too heavy: Airtable as lightweight CRM with automation
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — if [HubSpot](https://hubspot.com) is too heavy: [Airtable](https://airtable.com) as lightweight CRM with automation
 
 **Quick Win — Try This:**
 > ```
@@ -2874,8 +2876,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:api-connector-builder` — connects tools together once she knows what needs to connect
 
 **Recommended Integrations:**
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — no-code automation layer — learns automation concepts without writing code
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — startup operations hub: tasks, decisions, SOPs, meeting notes
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — no-code automation layer — learns automation concepts without writing code
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — startup operations hub: tasks, decisions, SOPs, meeting notes
 
 **Quick Win — Try This:**
 > ```
@@ -2922,8 +2924,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:content-engine` — turns analysis into publishable content: Substack posts, Twitter threads, reports
 
 **Recommended Integrations:**
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — investment watchlist: companies, key metrics, thesis notes, price targets
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — research notes + published investment memos organized by sector/company
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — investment watchlist: companies, key metrics, thesis notes, price targets
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — research notes + published investment memos organized by sector/company
 - **Gdrive** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gdrive → Connect — store and read annual reports, earnings call transcripts
 
 **Quick Win — Try This:**
@@ -2964,16 +2966,16 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Needs a website, asked if Claude Code is chargeable
 **Building:** Website
 
-**CEO Take:** Cost concern + non-technical user = needs free/cheap path. Claude Code with free tools (Netlify, GitHub Pages) gets a site live with zero hosting cost. The investment is the Claude API key, which pays back in the first hour.
+**CEO Take:** Cost concern + non-technical user = needs free/cheap path. Claude Code with free tools ([Netlify](https://netlify.com), [GitHub](https://github.com) Pages) gets a site live with zero hosting cost. The investment is the Claude API key, which pays back in the first hour.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:frontend-design` — generates complete, polished website designs with zero design experience needed
-- `claude skills add ecc:deployment-patterns` — deploys to Netlify free tier in minutes after Claude builds the site
+- `claude skills add ecc:deployment-patterns` — deploys to [Netlify](https://netlify.com) free tier in minutes after Claude builds the site
 - `claude skills add ecc:frontend-patterns` — clean, modern component patterns: nav, hero, cards, contact form, footer
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — free GitHub Pages hosting: push code → site is live at username.github.io
-- **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — Claude writes files directly to local folder, ready to drag-drop into Netlify
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — free [GitHub](https://github.com) Pages hosting: push code → site is live at username.github.io
+- **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — Claude writes files directly to local folder, ready to drag-drop into [Netlify](https://netlify.com)
 
 **Quick Win — Try This:**
 > ```
@@ -3024,9 +3026,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:python-patterns` — data processing pipelines for analytical data: HPLC, dissolution, stability studies
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — audit-trail-capable database: every data change logged with timestamp and user (21 CFR Part 11 requirement)
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — audit-trail-capable database: every data change logged with timestamp and user (21 CFR Part 11 requirement)
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — process local regulatory documents, COA files, analytical data files
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version-controlled validation scripts — regulators need change history
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version-controlled validation scripts — regulators need change history
 
 **Quick Win — Try This:**
 > ```
@@ -3065,18 +3067,18 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Needs to create lots of content for eco/sustainability brand
 **Building:** Application + informative reels content
 
-**CEO Take:** Sustainability content has a clear playbook: educate, inspire, call to action. The problem is volume — one person can't create enough. Claude + Canva + CapCut automation handles the pipeline. Position Ecogiry as the authority; volume is the moat.
+**CEO Take:** Sustainability content has a clear playbook: educate, inspire, call to action. The problem is volume — one person can't create enough. Claude + [Canva](https://canva.com) + CapCut automation handles the pipeline. Position Ecogiry as the authority; volume is the moat.
 
 **Recommended Claude.ai Features:**
-- `claude skills add ecc:content-engine` — batch content generation: reels scripts, Instagram carousels, blog posts
+- `claude skills add ecc:content-engine` — batch content generation: reels scripts, [Instagram](https://instagram.com) carousels, blog posts
 - `claude skills add ecc:brand-voice` — maintains Ecogiry's eco-conscious, motivational tone across all content
 - `claude skills add ecc:remotion-video-creation` — programmatic video creation: animated data visualizations about environmental impact
-- `claude skills add ecc:crosspost` — one content piece → reel script + carousel captions + LinkedIn post + Twitter thread
+- `claude skills add ecc:crosspost` — one content piece → reel script + carousel captions + [LinkedIn](https://linkedin.com) post + Twitter thread
 
 **Recommended Integrations:**
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — content calendar: scripts, captions, hooks organized by topic/platform/week
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — Airtable approved content → auto-post to Instagram + LinkedIn via Buffer/Later
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — eco-facts database: statistics, research, case studies Claude draws from for accurate content
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — content calendar: scripts, captions, hooks organized by topic/platform/week
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — [Airtable](https://airtable.com) approved content → auto-post to [Instagram](https://instagram.com) + [LinkedIn](https://linkedin.com) via Buffer/Later
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — eco-facts database: statistics, research, case studies Claude draws from for accurate content
 
 **Quick Win — Try This:**
 > ```
@@ -3125,7 +3127,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add caveman:compress` — compresses regulatory text to key requirements, cutting token load 60-70%
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — vector embeddings storage with pgvector: store chunked regulatory docs, semantic search at query time
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — vector embeddings storage with pgvector: store chunked regulatory docs, semantic search at query time
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — reads local PDF regulatory documents, processes section by section
 
 **Quick Win — Try This:**
@@ -3179,8 +3181,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:learn-eval` — evaluates learning progress, identifies gaps in understanding
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — backend for fault prediction: store sensor data, model outputs, alerts
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — hackathon submission: clean repo with good README impresses judges
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — backend for fault prediction: store sensor data, model outputs, alerts
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — hackathon submission: clean repo with good README impresses judges
 
 **Quick Win — Try This:**
 > ```
@@ -3234,8 +3236,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:continuous-learning-v2` — personalized curriculum that adapts to her learning progress
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — personal prompt library: categorized prompts, notes on what works, experiments log
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — prompt engineering portfolio repo — employers love seeing this
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — personal prompt library: categorized prompts, notes on what works, experiments log
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — prompt engineering portfolio repo — employers love seeing this
 
 **Quick Win — Try This:**
 > ```
@@ -3286,9 +3288,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:product-lens` — frames startup problems as product decisions, not just technical tasks
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — fastest backend for MVPs: auth, DB, storage, realtime — zero backend code needed
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — every GUSEC startup gets a repo, Claude commits MVP code directly
-- **Settings → Integrations** (via GitHub integration) — auto-deploy on push — MVPs are live within minutes of code generation
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — fastest backend for MVPs: auth, DB, storage, realtime — zero backend code needed
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — every GUSEC startup gets a repo, Claude commits MVP code directly
+- **Settings → Integrations** (via [GitHub](https://github.com) integration) — auto-deploy on push — MVPs are live within minutes of code generation
 
 **Quick Win — Try This:**
 > ```
@@ -3340,9 +3342,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:investor-materials` — pitch decks and case studies for Atri8's own business development
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — client project workspace: briefs, timelines, deliverables, feedback loops — all automated
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — new client intake form → auto-create project in Notion → send welcome packet → schedule kickoff
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — project pipeline CRM: prospects, active projects, invoicing status, resource allocation
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — client project workspace: briefs, timelines, deliverables, feedback loops — all automated
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — new client intake form → auto-create project in [Notion](https://notion.so) → send welcome packet → schedule kickoff
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — project pipeline CRM: prospects, active projects, invoicing status, resource allocation
 
 **Quick Win — Try This:**
 > ```
@@ -3379,7 +3381,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Nothing specific — works in graphic design
 **Building:** Graphic design work
 
-**CEO Take:** Graphic designer with no stated problem is underusing AI. Biggest opportunities: automate design briefs, generate copy for designs, create brand guidelines docs, accelerate client presentations, use Figma-to-Claude pipeline for design system work.
+**CEO Take:** Graphic designer with no stated problem is underusing AI. Biggest opportunities: automate design briefs, generate copy for designs, create brand guidelines docs, accelerate client presentations, use [Figma](https://figma.com)-to-Claude pipeline for design system work.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:design-system` — generates complete design system documentation: tokens, component specs, usage guidelines
@@ -3389,8 +3391,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 
 **Recommended Integrations:**
 - **Settings → Integrations** (MCP available) — reads Zeplin design specs, generates CSS/design tokens automatically, syncs design and code
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — client project workspace + brand guidelines library + design asset catalog
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — freelance CRM: client projects, deadlines, invoices, revision tracking
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — client project workspace + brand guidelines library + design asset catalog
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — freelance CRM: client projects, deadlines, invoices, revision tracking
 
 **Quick Win — Try This:**
 > ```
@@ -3438,8 +3440,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:deployment-patterns` — live URL in under 10 minutes — every pitch needs a URL to share
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — zero-config backend: auth + DB + storage + realtime — MVP backend in 5 minutes
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — clean repo investors can audit + GitHub Actions for auto-deploy
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — zero-config backend: auth + DB + storage + realtime — MVP backend in 5 minutes
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — clean repo investors can audit + [GitHub](https://github.com) Actions for auto-deploy
 - **Settings → Integrations** (via GitHub) — deploy preview URLs automatically on every push — share live demo link in pitch
 
 **Quick Win — Try This:**
@@ -3485,13 +3487,13 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:code-review` — systematic code quality review with actionable improvements — makes technical interviews easier
 - `claude skills add ecc:tdd` — test-driven development habit improves code quality metrics that show in portfolio
-- `claude skills add ecc:content-engine` — generates tailored cover letters, LinkedIn messages, cold emails to hiring managers
+- `claude skills add ecc:content-engine` — generates tailored cover letters, [LinkedIn](https://linkedin.com) messages, cold emails to hiring managers
 - `claude skills add ecc:market-research` — researches target companies before interviews: products, tech stack, recent news, culture
 
 **Recommended Integrations:**
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — job application tracker: company, role, status, follow-up dates, interview notes
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — Claude drafts follow-up emails after interviews, reads recruiter responses
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — master resume + versions for each job category, interview prep notes
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — job application tracker: company, role, status, follow-up dates, interview notes
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — Claude drafts follow-up emails after interviews, reads recruiter responses
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — master resume + versions for each job category, interview prep notes
 
 **Quick Win — Try This:**
 > ```
@@ -3532,18 +3534,18 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Burning Problem:** Social media marketing automation
 **Building:** Website + social media automation system
 
-**CEO Take:** Social media at scale requires a machine, not a to-do list. Build it once: content calendar → generation → scheduling → analytics → iteration. Claude handles creation; Zapier/Buffer handles distribution. The loop runs itself.
+**CEO Take:** Social media at scale requires a machine, not a to-do list. Build it once: content calendar → generation → scheduling → analytics → iteration. Claude handles creation; [Zapier](https://zapier.com)/Buffer handles distribution. The loop runs itself.
 
 **Recommended Claude.ai Features:**
 - `claude skills add ecc:content-engine` — monthly content batch generation: posts, captions, stories, reels scripts
 - `claude skills add ecc:brand-voice` — locks in consistent voice across all platforms and content types
-- `claude skills add ecc:crosspost` — formats one piece of content for Instagram / Facebook / LinkedIn / Twitter simultaneously
+- `claude skills add ecc:crosspost` — formats one piece of content for [Instagram](https://instagram.com) / [Facebook](https://facebook.com) / [LinkedIn](https://linkedin.com) / Twitter simultaneously
 - `claude skills add ecc:seo` — optimizes social profiles and content for discoverability
 
 **Recommended Integrations:**
-- **Airtable** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Airtable → Connect — social media content calendar: all posts planned, drafted, scheduled, tracked in one place
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — Airtable approved post → auto-schedule in Buffer → post at optimal time → log performance back
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — brand guidelines, content pillars, brand voice doc Claude references every session
+- **[Airtable](https://airtable.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Airtable](https://airtable.com) → Connect — social media content calendar: all posts planned, drafted, scheduled, tracked in one place
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — [Airtable](https://airtable.com) approved post → auto-schedule in Buffer → post at optimal time → log performance back
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — brand guidelines, content pillars, brand voice doc Claude references every session
 
 **Quick Win — Try This:**
 > ```
@@ -3595,9 +3597,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:swarm-init` (via Ruflo) — initializes multi-agent swarms with role assignments and communication protocols
 
 **Recommended Integrations:**
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — agent state storage: task queues, agent memory, output logs, human-in-loop checkpoints
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — coder agent commits code directly to repo; reviewer agent creates PRs
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — agents trigger external actions: send emails, update CRMs, post to Slack
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — agent state storage: task queues, agent memory, output logs, human-in-loop checkpoints
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — coder agent commits code directly to repo; reviewer agent creates PRs
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — agents trigger external actions: send emails, update CRMs, post to [Slack](https://slack.com)
 
 **Quick Win — Try This:**
 > ```
@@ -3645,9 +3647,9 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:configure-ecc` — configures the ECC skill ecosystem for maximum capability with current Claude version
 
 **Recommended Integrations:**
-- **Notion** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Notion → Connect — personal knowledge base: Claude feature notes, workflow experiments, what works
-- **Zapier** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zapier → Connect — the automation layer for whatever workflows are being built
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version-controlled automation scripts that evolve with new features
+- **[Notion](https://notion.so)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Notion](https://notion.so) → Connect — personal knowledge base: Claude feature notes, workflow experiments, what works
+- **[Zapier](https://zapier.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Zapier](https://zapier.com) → Connect — the automation layer for whatever workflows are being built
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version-controlled automation scripts that evolve with new features
 
 **Quick Win — Try This:**
 > ```
@@ -3697,8 +3699,8 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 - `claude skills add ecc:eval-harness` — evaluates quality of generated site code: does it actually look good? performance budget met? mobile responsive?
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control for prompt templates, track which prompts generate best output quality
-- **Supabase** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Supabase → Connect — user project storage, generated site versions, A/B testing different generation approaches
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control for prompt templates, track which prompts generate best output quality
+- **[Supabase](https://supabase.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Supabase](https://supabase.com) → Connect — user project storage, generated site versions, A/B testing different generation approaches
 - **Settings → Integrations** (via `npx @executeautomation/playwright-mcp-server`) — automated visual testing of generated sites: screenshot + compare + score quality
 
 **Quick Win — Try This:**
@@ -3794,7 +3796,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Integrations:**
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — agent memory: store blog topics, published posts, style guide as persistent graph
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read/write draft files, track what's been published
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version-control blog drafts, track changes between drafts
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version-control blog drafts, track changes between drafts
 
 **Quick Win — Try This:**
 > "Build a blog automation agent with these guardrails: (1) SYSTEM prompt includes topic blacklist and brand voice guide, (2) before publishing, check memory for duplicate topics using keywords, (3) enforce max 1500 words via output validation, (4) store each published post title+date+tags in memory. Show me the agent loop in Python using Anthropic SDK with prompt caching enabled."
@@ -3896,22 +3898,22 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 ---
 
 ### Jaynil Parmar — Working Professional
-**Burning Problem:** Not using Claude's full potential. Has WhatsApp bot idea but stuck on implementation.
-**Building:** WhatsApp bot
+**Burning Problem:** Not using Claude's full potential. Has [WhatsApp](https://web.whatsapp.com) bot idea but stuck on implementation.
+**Building:** [WhatsApp](https://web.whatsapp.com) bot
 
-**CEO Take:** WhatsApp + Claude = product in 48 hours. Twilio WhatsApp sandbox is free to start. Don't overthink architecture.
+**CEO Take:** [WhatsApp](https://web.whatsapp.com) + Claude = product in 48 hours. [Twilio](https://twilio.com) [WhatsApp](https://web.whatsapp.com) sandbox is free to start. Don't overthink architecture.
 
 **Recommended Claude.ai Features:**
-- `npm install twilio` — Twilio WhatsApp Business API SDK for message handling
+- `npm install twilio` — [Twilio](https://twilio.com) [WhatsApp Business API](https://business.whatsapp.com) SDK for message handling
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — store conversation state and user preferences locally
-- *(developer feature — available via claude.ai API for technical users)* + webhook setup — receive WhatsApp messages, route to Claude API
+- *(developer feature — available via claude.ai API for technical users)* + webhook setup — receive [WhatsApp](https://web.whatsapp.com) messages, route to Claude API
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — store user sessions, conversation history per phone number
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — persistent user context so bot remembers preferences across sessions
 
 **Quick Win — Try This:**
-> "Build a WhatsApp bot using Twilio Sandbox and Claude API. Requirements: (1) user sends WhatsApp message to Twilio number, (2) Flask webhook receives it, (3) Claude generates response with this system prompt: 'You are a helpful assistant for [business name]. Keep responses under 160 characters for WhatsApp.', (4) send response back via Twilio. Show complete working code with ngrok setup for local testing."
+> "Build a [WhatsApp](https://web.whatsapp.com) bot using [Twilio](https://twilio.com) Sandbox and Claude API. Requirements: (1) user sends [WhatsApp](https://web.whatsapp.com) message to [Twilio](https://twilio.com) number, (2) Flask webhook receives it, (3) Claude generates response with this system prompt: 'You are a helpful assistant for [business name]. Keep responses under 160 characters for [WhatsApp](https://web.whatsapp.com).', (4) send response back via [Twilio](https://twilio.com). Show complete working code with ngrok setup for local testing."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -4008,12 +4010,12 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 **Recommended Claude.ai Features:**
 - **Zeplin** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zeplin → Connect — directly read Zeplin design specs, generate component documentation
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read design system files, generate Storybook docs
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — commit design system docs, track component versions
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — commit design system docs, track component versions
 
 **Recommended Integrations:**
 - **Zeplin** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Zeplin → Connect — read design screens and components directly from Zeplin
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read existing design tokens JSON, generate documentation
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — maintain design system as versioned repo with changelogs
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — maintain design system as versioned repo with changelogs
 
 **Quick Win — Try This:**
 > "I'm building a design system. Here are my design tokens in JSON: [paste tokens]. Generate: (1) full component documentation for a Button component with variants [primary, secondary, danger, ghost], (2) accessibility checklist per variant (WCAG 2.1 AA), (3) usage guidelines with do/don't examples, (4) Storybook story file in TypeScript. Follow Atlassian Design System documentation style."
@@ -4081,7 +4083,7 @@ Here is raw source data [paste or describe schema]. KPIs I need: [list]. For eac
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — local file operations don't require round trips, faster context loading
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — cached repo context, avoid re-reading same files repeatedly
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — cached repo context, avoid re-reading same files repeatedly
 
 **Quick Win — Try This:**
 > Set up model routing by task type:
@@ -4185,13 +4187,13 @@ alias cc='claude --model claude-sonnet-4-5'
 **CEO Take:** 3+ hours/day recoverable immediately. Meeting notes → action items → follow-up emails → task creation. This automation pays for itself in week one.
 
 **Recommended Claude.ai Features:**
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — read calendar events, find meeting blocks, schedule follow-ups
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — auto-draft follow-up emails from meeting notes
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — read calendar events, find meeting blocks, schedule follow-ups
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — auto-draft follow-up emails from meeting notes
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read meeting transcripts/notes, write structured action item docs
 
 **Recommended Integrations:**
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — read/write calendar, auto-schedule follow-up time blocks
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — draft and send follow-up emails with action items
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — read/write calendar, auto-schedule follow-up time blocks
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — draft and send follow-up emails with action items
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — track recurring meeting participants, their action items, completion status
 
 **Quick Win — Try This:**
@@ -4221,12 +4223,12 @@ alias cc='claude --model claude-sonnet-4-5'
 
 **Recommended Claude.ai Features:**
 - `npm install -g lighthouse` — Google Lighthouse CLI for automated performance audits
-- *(developer feature — available via claude.ai API for technical users)* or n8n — schedule audit agent to run weekly, alert on regression
+- *(developer feature — available via claude.ai API for technical users)* or [n8n](https://n8n.io) — schedule audit agent to run weekly, alert on regression
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — store audit history, compare against previous run, flag degradation
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — store audit results as JSON, generate trend reports
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — post audit results as issues or PR comments automatically
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — post audit results as issues or PR comments automatically
 - **Sequential Thinking** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sequential Thinking → Connect — structure audit pipeline: crawl → test → analyze → report
 
 **Quick Win — Try This:**
@@ -4257,7 +4259,7 @@ alias cc='claude --model claude-sonnet-4-5'
 **Recommended Claude.ai Features:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read WordPress theme files, generate donation page copy and structure
 - **Sequential Thinking** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sequential Thinking → Connect — plan full donor journey: awareness → trust → donate → receipt → retention
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control WordPress customizations, track changes safely
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control WordPress customizations, track changes safely
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — build WordPress page templates, donation flow copy, impact reports
@@ -4497,7 +4499,7 @@ alias cc='claude --model claude-sonnet-4-5'
 **Burning Problem:** Manual report and dashboard creation consuming time.
 **Building:** Not yet
 
-**CEO Take:** Dashboard automation is table stakes. Connect data source → Claude analyzes → output to Metabase/Google Sheets/Looker Studio. Works in a day.
+**CEO Take:** Dashboard automation is table stakes. Connect data source → Claude analyzes → output to [Metabase](https://metabase.com)/[Google Sheets](https://sheets.google.com)/[Looker Studio](https://lookerstudio.google.com). Works in a day.
 
 **Recommended Claude.ai Features:**
 - *(developer feature — available via claude.ai API for technical users)* — data analysis + chart generation Claude drives
@@ -4535,7 +4537,7 @@ alias cc='claude --model claude-sonnet-4-5'
 
 **Recommended Claude.ai Features:**
 - **Exa** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Exa → Connect — research state startup policies, DPIIT rankings, ecosystem reports
-- **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — build structured policy comparison database, export to Excel/Notion
+- **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — build structured policy comparison database, export to Excel/[Notion](https://notion.so)
 - **Sequential Thinking** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sequential Thinking → Connect — structure: data collection → normalization → comparison → scoring → visualization
 
 **Recommended Integrations:**
@@ -4576,7 +4578,7 @@ alias cc='claude --model claude-sonnet-4-5'
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — manuscript I/O: read drafts, write revisions with tracked changes
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — store: genre rules per client, style guides, repeat client preferences
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control manuscripts, track revision history, compare drafts
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control manuscripts, track revision history, compare drafts
 
 **Quick Win — Try This:**
 > "I have a manuscript excerpt. Perform a full editorial assessment: (1) Genre conformance: does it match [romance/thriller/literary fiction] conventions? List deviations, (2) Voice consistency: identify 3 voice inconsistencies with line references, (3) Pacing assessment: where does tension drop? Mark specific paragraphs, (4) Line-level issues: top 10 specific sentences to rewrite with suggested alternatives, (5) Overall assessment score (1-10) per dimension with editorial recommendation. [Paste excerpt]"
@@ -4718,7 +4720,7 @@ alias cc='claude --model claude-sonnet-4-5'
 - **Exa** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Exa → Connect — research competitor campaigns, industry trends, audience insights
 
 **Quick Win — Try This:**
-> "I'm a marketing communications agency. Client: [B2B SaaS / FMCG / real estate — pick one]. Campaign brief: [paste brief]. Generate a complete campaign copy package: (1) 3 headline options per ad format (digital banner, Facebook, Google Search), (2) Email subject line A/B test pair (5 options each), (3) Landing page copy: hero, value props, social proof section, CTA, (4) Brand voice guide based on this brief: tone, vocabulary to use/avoid, personality attributes."
+> "I'm a marketing communications agency. Client: [B2B SaaS / FMCG / real estate — pick one]. Campaign brief: [paste brief]. Generate a complete campaign copy package: (1) 3 headline options per ad format (digital banner, [Facebook](https://facebook.com), Google Search), (2) Email subject line A/B test pair (5 options each), (3) Landing page copy: hero, value props, social proof section, CTA, (4) Brand voice guide based on this brief: tone, vocabulary to use/avoid, personality attributes."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -4780,7 +4782,7 @@ alias cc='claude --model claude-sonnet-4-5'
 **Recommended Claude.ai Features:**
 - *(developer feature — available via claude.ai API for technical users)* — process GSTR-2A, GSTR-2B, purchase register Excel files
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read GST portal exports, compare invoices, flag mismatches
-- *(developer feature — available via claude.ai API for technical users)* — integrate with ClearTax API or GST Suvidha Provider APIs for data fetch
+- *(developer feature — available via claude.ai API for technical users)* — integrate with [ClearTax](https://cleartax.in) API or GST Suvidha Provider APIs for data fetch
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read GSTIN data exports, purchase/sales registers, generate reconciliation reports
@@ -4813,17 +4815,17 @@ alias cc='claude --model claude-sonnet-4-5'
 **CEO Take:** Three automations, each saves hours weekly. Excel analysis + dashboard generation + HR mailer automation. Build in order of time saved.
 
 **Recommended Claude.ai Features:**
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — read employee birthdays from calendar, trigger mailer automation
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — send personalized birthday emails with team member photos
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — read employee birthdays from calendar, trigger mailer automation
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — send personalized birthday emails with team member photos
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — process Excel files, generate dashboard data, automate report formatting
 
 **Recommended Integrations:**
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — automated birthday mailer with photo attachments and personalized message
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — read HR calendar for birthdays, work anniversaries, events
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — automated birthday mailer with photo attachments and personalized message
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — read HR calendar for birthdays, work anniversaries, events
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — Excel processing: read large files, generate summary dashboards
 
 **Quick Win — Try This:**
-> "Build a birthday mailer automation. I have a CSV: [name, email, birthday, team, photo_path]. For each employee with birthday this week: (1) generate personalized email: 'Happy Birthday [Name]! From the [team] team', include their photo, (2) schedule send for 9am on their birthday, (3) log sent emails to sent_log.csv. Use Gmail API. Make it run every Monday to schedule that week's birthdays."
+> "Build a birthday mailer automation. I have a CSV: [name, email, birthday, team, photo_path]. For each employee with birthday this week: (1) generate personalized email: 'Happy Birthday [Name]! From the [team] team', include their photo, (2) schedule send for 9am on their birthday, (3) log sent emails to sent_log.csv. Use [Gmail](https://mail.google.com) API. Make it run every Monday to schedule that week's birthdays."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -4957,7 +4959,7 @@ alias cc='claude --model claude-sonnet-4-5'
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read document files (PDF, DOCX, images), write structured outputs
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — extract structured data from email attachments automatically
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — extract structured data from email attachments automatically
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — store extraction templates per document type; reuse across similar docs
 
 **Quick Win — Try This:**
@@ -4988,11 +4990,11 @@ alias cc='claude --model claude-sonnet-4-5'
 **Recommended Claude.ai Features:**
 - `claude "build inventory management system"` — full-stack app generation from single prompt
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read project files, iterate on features progressively
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — version control, deploy via GitHub Pages or Vercel
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — version control, deploy via [GitHub](https://github.com) Pages or [Vercel](https://vercel.com)
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — full project scaffold: backend, frontend, database schema
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — auto-commit working features, deploy to free hosting
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — auto-commit working features, deploy to free hosting
 
 **Quick Win — Try This:**
 > "Build a minimal inventory management system. Requirements: (1) Product table: name, SKU, category, quantity, reorder_level, cost_price, sell_price, (2) Features: add/edit/delete products, search by name or SKU, low stock alerts (quantity < reorder_level), (3) Simple dashboard: total products, total inventory value, low stock count, (4) Tech: React frontend, Node.js/Express backend, SQLite database, (5) Export inventory as CSV. Build as single-page app I can run locally."
@@ -5055,13 +5057,13 @@ alias cc='claude --model claude-sonnet-4-5'
 **CEO Take:** Potential = knowing what to automate. Map your actual work week → identify top 3 time sinks → automate those first. Everything else is distraction.
 
 **Recommended Claude.ai Features:**
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — process email, draft responses, extract action items automatically
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — schedule, reschedule, find free time, prep meeting agendas
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — process email, draft responses, extract action items automatically
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — schedule, reschedule, find free time, prep meeting agendas
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — analyze work documents, generate structured reports and summaries
 
 **Recommended Integrations:**
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — email triage, draft generation, follow-up scheduling
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — meeting management and time blocking
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — email triage, draft generation, follow-up scheduling
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — meeting management and time blocking
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — store your work context: current projects, stakeholders, recurring tasks
 
 **Quick Win — Try This:**
@@ -5087,20 +5089,20 @@ alias cc='claude --model claude-sonnet-4-5'
 **Burning Problem:** Lead generation. Need new connections and clients.
 **Building:** New connections
 
-**CEO Take:** Lead gen is a system, not a task. Apollo.io + LinkedIn + personalized email sequences + CRM = pipeline machine. Build the system once, fill it forever.
+**CEO Take:** Lead gen is a system, not a task. [Apollo.io](https://apollo.io) + [LinkedIn](https://linkedin.com) + personalized email sequences + CRM = pipeline machine. Build the system once, fill it forever.
 
 **Recommended Claude.ai Features:**
-- **Apollo** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Apollo → Connect — Apollo.io MCP for contact search, enrichment, and email sequences
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — personalized outreach emails generated by Claude, sent via Gmail
+- **Apollo** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Apollo → Connect — [Apollo.io](https://apollo.io) MCP for contact search, enrichment, and email sequences
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — personalized outreach emails generated by Claude, sent via [Gmail](https://mail.google.com)
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — track prospect interactions, follow-up schedule, conversion status
 
 **Recommended Integrations:**
 - **Apollo** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Apollo → Connect — search contacts by title/industry/location, enrich profiles, add to sequences
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — draft and schedule personalized outreach emails
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — draft and schedule personalized outreach emails
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — prospect CRM: track touchpoints, responses, pipeline stage
 
 **Quick Win — Try This:**
-> Using Apollo MCP: "Search for [Job Title] at [Industry] companies in [City/India] with 50-500 employees. For top 20 results: (1) export name, email, company, LinkedIn URL, (2) research company using Exa — recent news or growth signals, (3) generate personalized first-line for each email referencing something specific about their company, (4) draft full outreach email: problem they likely have, your solution, specific CTA. Schedule send across 5 business days."
+> Using Apollo MCP: "Search for [Job Title] at [Industry] companies in [City/India] with 50-500 employees. For top 20 results: (1) export name, email, company, [LinkedIn](https://linkedin.com) URL, (2) research company using Exa — recent news or growth signals, (3) generate personalized first-line for each email referencing something specific about their company, (4) draft full outreach email: problem they likely have, your solution, specific CTA. Schedule send across 5 business days."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -5119,19 +5121,19 @@ alias cc='claude --model claude-sonnet-4-5'
 ---
 
 ### CS Jaymeen Trivedi — Working Professional (CS)
-**Burning Problem:** WhatsApp/email reminders for clients, office and client management, Excel and Word documents.
+**Burning Problem:** [WhatsApp](https://web.whatsapp.com)/email reminders for clients, office and client management, Excel and Word documents.
 **Building:** Excel and Word documents
 
 **CEO Take:** Company Secretary practice = high-stakes deadlines. Missed ROC filing = client penalty. Automated reminders with lead time = practice protection and client retention.
 
 **Recommended Claude.ai Features:**
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — automated email reminders for compliance deadlines with 30/15/7/1 day lead times
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — automated email reminders for compliance deadlines with 30/15/7/1 day lead times
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — generate Word/Excel documents: minutes, resolutions, statutory registers
 - *(developer feature — available via claude.ai API for technical users)* — programmatic Word and Excel generation from templates
 
 **Recommended Integrations:**
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — automated client reminder emails with filing details and required documents
-- **Google Calendar** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Google Calendar → Connect — compliance calendar: all ROC, MCA, SEBI deadlines per client
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — automated client reminder emails with filing details and required documents
+- **[Google Calendar](https://calendar.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Google Calendar](https://calendar.google.com) → Connect — compliance calendar: all ROC, MCA, SEBI deadlines per client
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — client profiles: directors, authorized signatories, filing history, outstanding tasks
 
 **Quick Win — Try This:**
@@ -5166,7 +5168,7 @@ alias cc='claude --model claude-sonnet-4-5'
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — scoped file access: only open files relevant to current task
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — commit working state before context fills, restart clean with progress saved
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — commit working state before context fills, restart clean with progress saved
 
 **Quick Win — Try This:**
 > Create this *(scope your project files in Project Instructions)* in your website project root:
@@ -5206,17 +5208,17 @@ alias cc='claude --model claude-sonnet-4-5'
 **CEO Take:** Software development automation = CI/CD + code review + testing + deployment. Each phase is automatable. Build the pipeline once, it runs every commit.
 
 **Recommended Claude.ai Features:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — automated code review on every PR, test generation, issue creation
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — automated code review on every PR, test generation, issue creation
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read requirements docs, generate boilerplate code, project scaffolding
 - **Sequential Thinking** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sequential Thinking → Connect — structure dev pipeline: requirements → design → code → test → deploy
 
 **Recommended Integrations:**
-- **Github** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Github → Connect — PR review automation, issue tracking, code generation from issues
+- **[GitHub](https://github.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [GitHub](https://github.com) → Connect — PR review automation, issue tracking, code generation from issues
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read specs/requirements, write code, update documentation
 - **Sequential Thinking** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Sequential Thinking → Connect — enforce structured development phases, no skipping testing
 
 **Quick Win — Try This:**
-> "I'm automating my software development process. Build a GitHub Actions workflow that: (1) on every PR: runs Claude API to review diff for: bugs, security issues, code style, missing tests, (2) posts review comment with specific line-by-line feedback, (3) auto-generates missing unit tests for new functions, (4) checks if PR description follows template (problem / solution / testing / screenshots), (5) auto-assigns reviewer based on file paths changed. Show complete YAML workflow file."
+> "I'm automating my software development process. Build a [GitHub](https://github.com) Actions workflow that: (1) on every PR: runs Claude API to review diff for: bugs, security issues, code style, missing tests, (2) posts review comment with specific line-by-line feedback, (3) auto-generates missing unit tests for new functions, (4) checks if PR description follows template (problem / solution / testing / screenshots), (5) auto-assigns reviewer based on file paths changed. Show complete YAML workflow file."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -5238,20 +5240,20 @@ alias cc='claude --model claude-sonnet-4-5'
 **Burning Problem:** Manual employee task tracking. No visibility into team task status.
 **Building:** Nothing — wants employee task dashboard
 
-**CEO Take:** Task visibility = management leverage. Simple dashboard: task input → status tracking → manager view. Build in a day with Streamlit or Google Sheets + Claude.
+**CEO Take:** Task visibility = management leverage. Simple dashboard: task input → status tracking → manager view. Build in a day with Streamlit or [Google Sheets](https://sheets.google.com) + Claude.
 
 **Recommended Claude.ai Features:**
 - *(developer feature — available via claude.ai API for technical users)* — build internal dashboard app in Python, no frontend skills needed
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read task CSV/Excel inputs, generate status dashboard data
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — send weekly task status digest to managers automatically
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — send weekly task status digest to managers automatically
 
 **Recommended Integrations:**
 - **Filesystem** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Filesystem → Connect — read task updates from shared files, write dashboard data
-- **Gmail** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Gmail → Connect — weekly automated status report to management
+- **[Gmail](https://mail.google.com)** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → [Gmail](https://mail.google.com) → Connect — weekly automated status report to management
 - **Memory** — Connect at [claude.ai](https://claude.ai) → Settings → Integrations → Memory → Connect — store employee task history, completion rates, recurring blockers
 
 **Quick Win — Try This:**
-> "Build an employee task dashboard using Streamlit and Google Sheets as backend. Features: (1) employees submit daily task updates via simple form: task_name, status (In Progress/Done/Blocked), hours_spent, blocker_description, (2) manager view: all team tasks, filter by employee/status/date, (3) KPIs: tasks completed this week, average completion rate per employee, tasks blocked >2 days, (4) weekly email digest auto-sent Monday morning summarizing prior week. Show complete Python code."
+> "Build an employee task dashboard using Streamlit and [Google Sheets](https://sheets.google.com) as backend. Features: (1) employees submit daily task updates via simple form: task_name, status (In Progress/Done/Blocked), hours_spent, blocker_description, (2) manager view: all team tasks, filter by employee/status/date, (3) KPIs: tasks completed this week, average completion rate per employee, tasks blocked >2 days, (4) weekly email digest auto-sent Monday morning summarizing prior week. Show complete Python code."
 
 **Project Instructions Starter:**
 > **How to use this:** Go to [claude.ai](https://claude.ai) → click **Projects** (left sidebar) → **New Project** → click the ⚙️ Settings icon → paste the text below into **Project Instructions** → Save.
@@ -5352,12 +5354,12 @@ Run outreach generator
 ```
 Claude reads structured lead data, generates hyper-personalized messages at scale. 200 leads processed in 4 minutes. Each message references specific company context — not template spam.
 
-**Approach 2 — MCP Server Integration: Notion + HubSpot:**
+**Approach 2 — MCP Server Integration: [Notion](https://notion.so) + [HubSpot](https://hubspot.com):**
 ```
 Connect HubSpot CRM
 Connect Notion (for lead tracking boards)
 ```
-Claude reads live CRM data — deal stages, last contact, company size. Generates follow-up sequences based on actual pipeline status. Updates CRM records post-outreach. Notion MCP turns your lead tracker into a live intelligence dashboard Claude can query and update.
+Claude reads live CRM data — deal stages, last contact, company size. Generates follow-up sequences based on actual pipeline status. Updates CRM records post-outreach. [Notion](https://notion.so) MCP turns your lead tracker into a live intelligence dashboard Claude can query and update.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5379,8 +5381,8 @@ Claude reads live CRM data — deal stages, last contact, company size. Generate
 **Real-World Scenario (India context):**
 > Suppose you're Rushabh, founder of a B2B logistics SaaS targeting textile exporters in Surat. 500 leads from trade fair. Zero bandwidth to personalize.
 > 1. Export leads to CSV: company, city, textile segment, contact name
-> 2. Run: `claude "Read surat_leads.csv. Write WhatsApp Business message for each lead referencing their textile segment and Surat export challenges. Keep under 150 words. Save as whatsapp_outreach.csv"`
-> 3. Upload to WhatsApp Business API bulk sender
+> 2. Run: `claude "Read surat_leads.csv. Write [WhatsApp Business](https://business.whatsapp.com) message for each lead referencing their textile segment and Surat export challenges. Keep under 150 words. Save as whatsapp_outreach.csv"`
+> 3. Upload to [WhatsApp Business API](https://business.whatsapp.com) bulk sender
 > 4. Claude generates follow-up sequence: `claude "For leads who don't reply in 4 days, write follow-up referencing GST compliance pain for exporters"`
 > Expected result: 500 personalized messages in 8 minutes. Response rate 3–5x generic outreach.
 
@@ -5389,7 +5391,7 @@ Claude reads live CRM data — deal stages, last contact, company size. Generate
 ### Theme 3: Finance, Accounting & Tax Automation
 **Attendees affected:** Indra Ratanpal, Parin Shah, Gaurav Ganjwala, Nikhil Soneji, Jay Parekh, Yash Panchal, CA Kamlesh Jain, Sneh Patel, Amrita Chaudhary, Naresh Golani, Aayush Singhvi, Bhupesh Sood (12+ people)
 
-**The Problem:** GST filing complexity, reconciliation between Tally/Zoho Books/bank statements, manual invoice processing, TDS calculation errors. CAs spending 60% of time on data entry vs. advisory. Month-end close takes 5–7 days when it should take 1.
+**The Problem:** GST filing complexity, reconciliation between [Tally](https://tallysolutions.com)/[Zoho Books](https://zoho.com/in/books)/bank statements, manual invoice processing, TDS calculation errors. CAs spending 60% of time on data entry vs. advisory. Month-end close takes 5–7 days when it should take 1.
 
 **CEO Diagnosis:** India-specific pain. 1.4 crore GST-registered businesses. Each one hemorrhaging CA hours on compliance that's 80% mechanical. At ₹2,000–₹5,000/hr CA rate, reconciliation alone costs ₹15,000–₹40,000/month per client. Multiply by client count — massive revenue leak. Wrong TDS/GST = penalty + interest + audit risk. This is a ₹50,000-crore problem hiding in spreadsheets.
 
@@ -5402,12 +5404,12 @@ GSTR-2A reconciliation
 ```
 Claude reads unstructured invoices (PDFs, scans, emails) and extracts structured data. Catches GSTIN mismatches before filing. Eliminates manual data entry for GSTR-1 and GSTR-3B preparation.
 
-**Approach 2 — MCP Server Integration: Zoho Books + filesystem:**
+**Approach 2 — MCP Server Integration: [Zoho Books](https://zoho.com/in/books) + filesystem:**
 ```
 Zoho Books integration
 Local file processing for Tally exports
 ```
-Zoho Books MCP lets Claude pull live transaction data, generate reconciliation reports, flag anomalies. For Tally users — export XML/CSV from Tally, Claude reads via filesystem MCP and produces analysis Tally's reports can't. Bridges old-school Tally workflows with AI intelligence.
+[Zoho Books](https://zoho.com/in/books) MCP lets Claude pull live transaction data, generate reconciliation reports, flag anomalies. For [Tally](https://tallysolutions.com) users — export XML/CSV from [Tally](https://tallysolutions.com), Claude reads via filesystem MCP and produces analysis [Tally](https://tallysolutions.com)'s reports can't. Bridges old-school [Tally](https://tallysolutions.com) workflows with AI intelligence.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5453,12 +5455,12 @@ Recurring task: add to cron
 ```
 Claude aggregates data across sources humans would spend 45 min compiling. Outputs structured reports with action items highlighted. Schedule via cron for zero-touch daily delivery.
 
-**Approach 2 — MCP Server Integration: Slack + Google Sheets:**
+**Approach 2 — MCP Server Integration: [Slack](https://slack.com) + [Google Sheets](https://sheets.google.com):**
 ```
 Slack for notifications and team updates
 Google Sheets for ops dashboards
 ```
-Slack MCP lets Claude post reports directly to channels, alert on anomalies, collect approval responses. Sheets MCP turns your existing ops dashboards into data sources Claude reads and updates. Build approval workflows where Claude reads Slack responses and updates Sheets tracker automatically.
+[Slack](https://slack.com) MCP lets Claude post reports directly to channels, alert on anomalies, collect approval responses. Sheets MCP turns your existing ops dashboards into data sources Claude reads and updates. Build approval workflows where Claude reads [Slack](https://slack.com) responses and updates Sheets tracker automatically.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5481,7 +5483,7 @@ Slack MCP lets Claude post reports directly to channels, alert on anomalies, col
 **Real-World Scenario (India context):**
 > Suppose you're Devesh, Ops Head at a D2C brand doing 1,000 orders/day. Team of 3 ops people buried in daily reporting and vendor coordination.
 > 1. Connect Sheets MCP to your ops dashboard
-> 2. Run: `claude "Read today's order data, returns, and inventory levels from Sheets. Generate morning ops brief. Post to #ops-daily Slack channel. Flag any SKU with <2 days inventory."`
+> 2. Run: `claude "Read today's order data, returns, and inventory levels from Sheets. Generate morning ops brief. Post to #ops-daily [Slack](https://slack.com) channel. Flag any SKU with <2 days inventory."`
 > 3. Automate via cron: runs 8:45 AM every day
 > 4. Add: `claude "Check open vendor POs older than 7 days. List outstanding ones. Draft follow-up messages to each vendor."` — runs every Monday
 > Expected result: 3-person ops team reclaims 3–4 hrs/day. Morning brief ready before they arrive. Vendor follow-ups never missed.
@@ -5504,12 +5506,12 @@ Translate content to Gujarati/Hindi
 ```
 Claude ingests brand voice documents and produces on-brand content at scale. Multilingual output is instant — English + Hindi + Gujarati in one command. Maintains voice consistency better than junior copywriters.
 
-**Approach 2 — MCP Server Integration: Notion + GitHub:**
+**Approach 2 — MCP Server Integration: [Notion](https://notion.so) + [GitHub](https://github.com):**
 ```
 Content calendar and management in Notion
 Version control for content assets
 ```
-Notion MCP connects Claude to your content calendar — reads topics, writes drafts directly into pages, marks status. No copy-paste between tools. GitHub MCP for teams managing website content in git — Claude commits blog posts directly to repo, triggers deployment pipeline.
+[Notion](https://notion.so) MCP connects Claude to your content calendar — reads topics, writes drafts directly into pages, marks status. No copy-paste between tools. [GitHub](https://github.com) MCP for teams managing website content in git — Claude commits blog posts directly to repo, triggers deployment pipeline.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5534,7 +5536,7 @@ Notion MCP connects Claude to your content calendar — reads topics, writes dra
 > 1. Create `brand_voice.md` with 5 example pieces + tone guidelines
 > 2. Build `content_calendar.csv`: topic, platform, language, due date
 > 3. Run Monday: `claude "Generate all content for this week's calendar. Read brand_voice.md first. Output one file per platform."` — 20 pieces in 15 minutes
-> 4. Vernacular: `claude "Translate this week's LinkedIn posts to Hinglish (Hindi-English mix). Keep relatable, not formal."` — regional audience unlocked
+> 4. Vernacular: `claude "Translate this week's [LinkedIn](https://linkedin.com) posts to Hinglish (Hindi-English mix). Keep relatable, not formal."` — regional audience unlocked
 > Expected result: Solo marketer producing 60+ pieces/month. Consistent voice. Vernacular content doubles reach.
 
 ---
@@ -5586,12 +5588,12 @@ Sequential Thinking MCP forces structured reasoning — agent breaks complex pro
 ```
 
 **Real-World Scenario (India context):**
-> Suppose you're Anarv, building a market research agent for Indian FMCG brands. Need: competitor monitoring + weekly report + Slack delivery — fully automated.
-> 1. Build orchestrator: reads competitor list from Notion (via MCP), spawns researcher sub-agents per competitor
+> Suppose you're Anarv, building a market research agent for Indian FMCG brands. Need: competitor monitoring + weekly report + [Slack](https://slack.com) delivery — fully automated.
+> 1. Build orchestrator: reads competitor list from [Notion](https://notion.so) (via MCP), spawns researcher sub-agents per competitor
 > 2. Researcher agents: use Puppeteer to scrape pricing pages, product launches, news mentions
 > 3. Memory MCP stores findings: "Competitor X raised prices 8% last week"
 > 4. Writer agent: aggregates memory, generates competitive intelligence report
-> 5. Slack MCP: delivers report to `#competitive-intel` every Friday 5 PM IST
+> 5. [Slack](https://slack.com) MCP: delivers report to `#competitive-intel` every Friday 5 PM IST
 > Expected result: Full competitive intelligence pipeline running autonomously. Zero human hours after initial setup.
 
 ---
@@ -5599,7 +5601,7 @@ Sequential Thinking MCP forces structured reasoning — agent breaks complex pro
 ### Theme 7: RAG / Knowledge Base Systems
 **Attendees affected:** Darshit Lakhani, Pritesh Lakhani, Vraj Thakkar, Smit Prajapati, Praveen Sharma (5+ people)
 
-**The Problem:** Company knowledge locked in PDFs, Google Docs, Notion pages, Confluence. Employees can't find answers fast. Customer support agents giving wrong answers. Onboarding new hires takes weeks because knowledge isn't accessible. RAG setup feels technically complex.
+**The Problem:** Company knowledge locked in PDFs, Google Docs, [Notion](https://notion.so) pages, [Confluence](https://atlassian.com/software/confluence). Employees can't find answers fast. Customer support agents giving wrong answers. Onboarding new hires takes weeks because knowledge isn't accessible. RAG setup feels technically complex.
 
 **CEO Diagnosis:** Knowledge = competitive moat. Company that captures and surfaces institutional knowledge operates like a 10-year-old company even at year 2. Every support ticket answered by AI = ₹200–₹500 saved vs. human agent. Every onboarding question answered by knowledge base = 2–3 days saved per new hire. Indian companies scaling fast can't afford knowledge silos — they kill velocity.
 
@@ -5613,12 +5615,12 @@ Build FAQ document from knowledge base
 ```
 Filesystem MCP turns any folder into a queryable knowledge base. Claude reads relevant docs on demand. No vector database needed for sub-1000 document collections. Fast to set up, works immediately.
 
-**Approach 2 — MCP Server Integration: Chroma + Notion:**
+**Approach 2 — MCP Server Integration: Chroma + [Notion](https://notion.so):**
 ```
 Vector store for large knowledge bases
 Confluence/Notion for enterprise knowledge
 ```
-Chroma MCP enables true vector search — semantic similarity across thousands of documents. Upload PDFs, SOPs, training materials — Chroma indexes them, Claude retrieves semantically relevant context. Notion MCP for teams already using Notion as knowledge hub — Claude queries live pages, always current.
+Chroma MCP enables true vector search — semantic similarity across thousands of documents. Upload PDFs, SOPs, training materials — Chroma indexes them, Claude retrieves semantically relevant context. [Notion](https://notion.so) MCP for teams already using [Notion](https://notion.so) as knowledge hub — Claude queries live pages, always current.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5716,12 +5718,12 @@ No-code automation
 ```
 No need to know HTML/CSS/JavaScript. Describe the outcome. Claude builds it. Iterating is conversational — "make the button orange" "add a FAQ section" "show only leads from this week."
 
-**Approach 2 — MCP Server Integration: GitHub + filesystem:**
+**Approach 2 — MCP Server Integration: [GitHub](https://github.com) + filesystem:**
 ```
 Deploy via GitHub Pages (free hosting)
 File management for multi-page sites
 ```
-GitHub MCP lets Claude commit website files directly and trigger GitHub Pages deployment — free hosting, live in minutes. No FTP, no cPanel, no hosting setup confusion. Filesystem MCP manages multi-page sites — Claude can update, refactor, add pages across entire site.
+[GitHub](https://github.com) MCP lets Claude commit website files directly and trigger [GitHub](https://github.com) Pages deployment — free hosting, live in minutes. No FTP, no cPanel, no hosting setup confusion. Filesystem MCP manages multi-page sites — Claude can update, refactor, add pages across entire site.
 
 **Approach 3 — Project Instructions + Workflow Pattern:**
 ```markdown
@@ -5744,10 +5746,10 @@ GitHub MCP lets Claude commit website files directly and trigger GitHub Pages de
 
 **Real-World Scenario (India context):**
 > Suppose you're Drishti, founder of a boutique interior design studio in Mumbai. Need portfolio website + inquiry form. Agency quoted ₹80,000. No technical skills.
-> 1. Open Claude Code. Type: "Build portfolio website for my interior design studio. Include: hero with tagline, portfolio grid (I'll add photos later), services section, about me, contact form that sends to my Gmail, WhatsApp button. Colors: warm beige and gold. Mobile-first."
+> 1. Open Claude Code. Type: "Build portfolio website for my interior design studio. Include: hero with tagline, portfolio grid (I'll add photos later), services section, about me, contact form that sends to my [Gmail](https://mail.google.com), [WhatsApp](https://web.whatsapp.com) button. Colors: warm beige and gold. Mobile-first."
 > 2. Claude builds complete site in 8–12 minutes
 > 3. Iterate: "The portfolio section feels too basic. Add hover effects that show project name and location."
-> 4. Deploy: "Upload this to GitHub and enable GitHub Pages so it goes live."
+> 4. Deploy: "Upload this to [GitHub](https://github.com) and enable [GitHub](https://github.com) Pages so it goes live."
 > Expected result: Professional portfolio site live in under 2 hours. Zero developer cost. Can update anytime with plain English commands.
 
 ---
@@ -5825,12 +5827,12 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 
 | Tool | Install | Best For | Why It Stands Out |
 |------|---------|----------|-------------------|
-| HubSpot MCP | Available via claude.ai → Settings → Integrations or Skills | CRM-integrated outreach | Live deal stage data → smarter follow-up sequences |
-| Notion MCP | Upload relevant files or connect via Settings → Integrations | Lead tracking boards | Claude reads + updates Notion without copy-paste |
+| [HubSpot](https://hubspot.com) MCP | Available via claude.ai → Settings → Integrations or Skills | CRM-integrated outreach | Live deal stage data → smarter follow-up sequences |
+| [Notion](https://notion.so) MCP | Upload relevant files or connect via Settings → Integrations | Lead tracking boards | Claude reads + updates [Notion](https://notion.so) without copy-paste |
 | Brave Search MCP | Upload relevant files or connect via Settings → Integrations | Lead research at scale | Real-time web research on prospects before outreach |
-| Puppeteer MCP | Upload relevant files or connect via Settings → Integrations | LinkedIn/web scraping | Automate prospect data gathering from public pages |
-| Slack MCP | Upload relevant files or connect via Settings → Integrations | Sales team notifications | Claude posts pipeline updates, alerts on hot leads |
-| WhatsApp Business API | Via Twilio or official API — Claude generates message content | India-first outreach channel | 500M+ WhatsApp users in India; highest open rates |
+| Puppeteer MCP | Upload relevant files or connect via Settings → Integrations | [LinkedIn](https://linkedin.com)/web scraping | Automate prospect data gathering from public pages |
+| [Slack](https://slack.com) MCP | Upload relevant files or connect via Settings → Integrations | Sales team notifications | Claude posts pipeline updates, alerts on hot leads |
+| [WhatsApp Business API](https://business.whatsapp.com) | Via [Twilio](https://twilio.com) or official API — Claude generates message content | India-first outreach channel | 500M+ [WhatsApp](https://web.whatsapp.com) users in India; highest open rates |
 
 ---
 
@@ -5838,13 +5840,13 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 
 | Tool | Install | Best For | Why It Stands Out |
 |------|---------|----------|-------------------|
-| Zoho Books MCP | Upload relevant files or connect via Settings → Integrations | Live accounting data | Pull real transactions, reconcile against bank |
-| Filesystem MCP | Upload relevant files or connect via Settings → Integrations | Tally XML/CSV processing | Bridge Tally exports to AI analysis |
+| [Zoho Books](https://zoho.com/in/books) MCP | Upload relevant files or connect via Settings → Integrations | Live accounting data | Pull real transactions, reconcile against bank |
+| Filesystem MCP | Upload relevant files or connect via Settings → Integrations | [Tally](https://tallysolutions.com) XML/CSV processing | Bridge [Tally](https://tallysolutions.com) exports to AI analysis |
 | SQLite MCP | Upload relevant files or connect via Settings → Integrations | Invoice database | Claude extracts AND stores in one pipeline |
-| Google Sheets MCP | Upload relevant files or connect via Settings → Integrations | Shared accounting workbooks | Teams working in Sheets get AI layer without migration |
+| [Google Sheets](https://sheets.google.com) MCP | Upload relevant files or connect via Settings → Integrations | Shared accounting workbooks | Teams working in Sheets get AI layer without migration |
 | GST Suvidha Provider APIs | Integrate via Claude-generated API scripts | Direct GSTN data | Automated GSTR-2A pull, reconciliation at source |
-| ClearTax API | Claude generates integration scripts | GST filing automation | India's largest tax platform — API automates filing |
-| Razorpay MCP / API | Custom via Razorpay API docs | UPI payment reconciliation | Reconcile UPI/payment gateway vs. books automatically |
+| [ClearTax](https://cleartax.in) API | Claude generates integration scripts | GST filing automation | India's largest tax platform — API automates filing |
+| [Razorpay](https://razorpay.com) MCP / API | Custom via [Razorpay](https://razorpay.com) API docs | UPI payment reconciliation | Reconcile UPI/payment gateway vs. books automatically |
 
 ---
 
@@ -5852,11 +5854,11 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 
 | Tool | Install | Best For | Why It Stands Out |
 |------|---------|----------|-------------------|
-| Slack MCP | Upload relevant files or connect via Settings → Integrations | Ops alerts & approvals | Claude posts, reads responses, routes approvals |
-| Google Sheets MCP | Upload relevant files or connect via Settings → Integrations | Ops dashboards | Live data + AI analysis without new tools |
-| GitHub MCP | Upload relevant files or connect via Settings → Integrations | Dev ops automation | PR reviews, issue triage, deploy triggers |
+| [Slack](https://slack.com) MCP | Upload relevant files or connect via Settings → Integrations | Ops alerts & approvals | Claude posts, reads responses, routes approvals |
+| [Google Sheets](https://sheets.google.com) MCP | Upload relevant files or connect via Settings → Integrations | Ops dashboards | Live data + AI analysis without new tools |
+| [GitHub](https://github.com) MCP | Upload relevant files or connect via Settings → Integrations | Dev ops automation | PR reviews, issue triage, deploy triggers |
 | Sequential Thinking MCP | Upload relevant files or connect via Settings → Integrations | Complex workflow planning | Forces step-by-step reasoning before acting |
-| Todoist / Linear MCP | Upload relevant files or connect via Settings → Integrations | Task management integration | Claude creates, assigns, updates tasks automatically |
+| Todoist / [Linear](https://linear.app) MCP | Upload relevant files or connect via Settings → Integrations | Task management integration | Claude creates, assigns, updates tasks automatically |
 | cron + Claude | Native OS scheduler | Recurring automation | Zero-infrastructure scheduled reports and tasks |
 
 ---
@@ -5865,12 +5867,12 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 
 | Tool | Install | Best For | Why It Stands Out |
 |------|---------|----------|-------------------|
-| Notion MCP | Upload relevant files or connect via Settings → Integrations | Content calendar management | Claude writes drafts directly into calendar pages |
-| GitHub MCP | Upload relevant files or connect via Settings → Integrations | Blog/website content deploy | Commit posts directly, trigger publish pipeline |
+| [Notion](https://notion.so) MCP | Upload relevant files or connect via Settings → Integrations | Content calendar management | Claude writes drafts directly into calendar pages |
+| [GitHub](https://github.com) MCP | Upload relevant files or connect via Settings → Integrations | Blog/website content deploy | Commit posts directly, trigger publish pipeline |
 | Brave Search MCP | Upload relevant files or connect via Settings → Integrations | Research-backed content | Grounded in current data, not stale training |
 | Filesystem MCP | Upload relevant files or connect via Settings → Integrations | Brand voice library | Load past content as style reference |
-| Google Translate API | Claude generates API calls | Vernacular content | Hindi/Gujarati/Marathi at scale — India's real audience |
-| Canva API | Claude generates API scripts | Visual content at scale | Text + design automation for social posts |
+| [Google Translate](https://translate.google.com) API | Claude generates API calls | Vernacular content | Hindi/Gujarati/Marathi at scale — India's real audience |
+| [Canva](https://canva.com) API | Claude generates API scripts | Visual content at scale | Text + design automation for social posts |
 
 ---
 
@@ -5893,9 +5895,9 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 |------|---------|----------|-------------------|
 | Filesystem MCP | Upload relevant files or connect via Settings → Integrations | Batch document processing | Point at folder, process everything inside |
 | SQLite MCP | Upload relevant files or connect via Settings → Integrations | Structured output storage | Extract AND store in one Claude pipeline |
-| Google Drive MCP | Upload relevant files or connect via Settings → Integrations | Cloud document access | Process Drive docs without downloading |
+| [Google Drive](https://drive.google.com) MCP | Upload relevant files or connect via Settings → Integrations | Cloud document access | Process Drive docs without downloading |
 | Puppeteer MCP | Upload relevant files or connect via Settings → Integrations | Web data extraction | Scrape tables, forms, public data at scale |
-| AWS S3 MCP | Upload relevant files or connect via Settings → Integrations | Enterprise document stores | Process documents in S3 buckets directly |
+| [AWS S3](https://aws.amazon.com/s3) MCP | Upload relevant files or connect via Settings → Integrations | Enterprise document stores | Process documents in S3 buckets directly |
 | Tesseract (via script) | Claude generates Python wrapper | Scanned document OCR | Pre-process scans before Claude extraction for accuracy |
 
 ---
@@ -5904,12 +5906,12 @@ Brave Search MCP gives Claude web access — perfect learning companion. Ask Cla
 
 | Tool | Install | Best For | Why It Stands Out |
 |------|---------|----------|-------------------|
-| GitHub MCP | Upload relevant files or connect via Settings → Integrations | Auto-deploy via GitHub Pages | Free hosting, Claude commits + deploys |
+| [GitHub](https://github.com) MCP | Upload relevant files or connect via Settings → Integrations | Auto-deploy via [GitHub](https://github.com) Pages | Free hosting, Claude commits + deploys |
 | Filesystem MCP | Upload relevant files or connect via Settings → Integrations | Multi-page site management | Claude manages entire site structure |
 | Puppeteer MCP | Upload relevant files or connect via Settings → Integrations | Test built websites | Claude builds AND tests — catches broken UI |
 | Brave Search MCP | Upload relevant files or connect via Settings → Integrations | Research before building | Look up best practices, competitor designs |
-| Vercel CLI | Available via claude.ai — no installation needed | Production-grade deployment | One-command deploy, free tier generous |
-| Razorpay payment integration | Claude generates integration code | India payments on any site | UPI + cards in under 1 hour — India-native |
+| [Vercel](https://vercel.com) CLI | Available via claude.ai — no installation needed | Production-grade deployment | One-command deploy, free tier generous |
+| [Razorpay](https://razorpay.com) payment integration | Claude generates integration code | India payments on any site | UPI + cards in under 1 hour — India-native |
 
 ---
 
@@ -5940,7 +5942,7 @@ Go to [claude.ai](https://claude.ai) in your browser. Sign up free or log in. No
 Click **"New chat"** and just type what you need. Examples:
 - "Help me write a sales email for [my product]"
 - "Analyse this spreadsheet and tell me which products are most profitable" (then upload the file)
-- "Write 10 Instagram captions for my [business type]"
+- "Write 10 [Instagram](https://instagram.com) captions for my [business type]"
 - "Summarise this PDF and pull out the key action items" (then upload the file)
 
 ---
@@ -5966,11 +5968,11 @@ Keep outputs concise and actionable.
 ## Step 4: Connect Your Tools
 
 Go to **Settings → Integrations** and connect:
-- **Google Drive** — Claude can read your files and docs
-- **Gmail** — Claude can draft emails and summarise threads
-- **Google Calendar** — Claude can check your schedule and draft invites
-- **GitHub** — Claude can review code and manage repositories
-- **Notion** — Claude can read and write your workspace docs
+- **[Google Drive](https://drive.google.com)** — Claude can read your files and docs
+- **[Gmail](https://mail.google.com)** — Claude can draft emails and summarise threads
+- **[Google Calendar](https://calendar.google.com)** — Claude can check your schedule and draft invites
+- **[GitHub](https://github.com)** — Claude can review code and manage repositories
+- **[Notion](https://notion.so)** — Claude can read and write your workspace docs
 
 ---
 
@@ -6026,7 +6028,7 @@ Paste these directly into [claude.ai](https://claude.ai) chat:
 
 **Content:**
 - "Write this product description in both English and Gujarati. Keep the same meaning, adjust idioms for local context."
-- "Generate 30 days of WhatsApp Business broadcast content for my retail store — mix of offers, tips, and engagement posts."
+- "Generate 30 days of [WhatsApp Business](https://business.whatsapp.com) broadcast content for my retail store — mix of offers, tips, and engagement posts."
 
 **Operations:**
 - "Here are my team's task updates [paste]. Create a clear status report for my weekly review meeting."
@@ -6064,7 +6066,7 @@ For in-depth research, click **"Deep Research"** in the claude.ai chat:
 | Not sure if Claude output is accurate | Always have a qualified professional (CA, lawyer, doctor) review financial, legal, or medical outputs. Claude is a first-draft tool, not a final authority. |
 | Claude writes in English but I need Gujarati or Hindi | Add to your prompt: "Translate this output to [Gujarati/Hindi]. Keep brand names and product names in English." |
 | Cannot pay Anthropic with Indian card | Anthropic accepts international Visa/Mastercard/Amex. Best options: Niyo Global card, Scapia card, HDFC Regalia — all support international transactions with low forex markup. RuPay often does not work. |
-| Integration not connecting (Google, Slack, Notion) | Go to Settings → Integrations → find the service → click Disconnect then Connect again. Make sure you are logged into that service in your browser first. |
+| Integration not connecting (Google, [Slack](https://slack.com), Notion) | Go to Settings → Integrations → find the service → click Disconnect then Connect again. Make sure you are logged into that service in your browser first. |
 | Cannot find the Projects feature | Projects is in the left sidebar of claude.ai (desktop view). Log in at claude.ai and look for "Projects" in the left panel. |
 | Deep Research not appearing | Deep Research is available on Claude Pro plan. Upgrade at claude.ai → Settings → Plan. |
 | Claude gives a wrong answer about my specific business | Claude does not know your business by default. Add your business details to your Project Instructions — then every chat in that Project has your context. |
@@ -6080,7 +6082,7 @@ For in-depth research, click **"Deep Research"** in the claude.ai chat:
 - Have QR code or short link to claude.ai ready to share with attendees
 - Share link to claude.ai — attendees can sign up free right away
 - Have a Claude Pro account logged in for live demos
-- Have Project Instructions template printed / shareable via WhatsApp group
+- Have Project Instructions template printed / shareable via [WhatsApp](https://web.whatsapp.com) group
 
 ### Top 10 Questions From This Audience — Answers Ready
 
@@ -6096,8 +6098,8 @@ For in-depth research, click **"Deep Research"** in the claude.ai chat:
 **Q4: "Do I need to know coding to use this?"**
 > No. 40% of best use cases require zero coding. You describe outcome in English. Claude writes and runs code. Your job: tell Claude what you want + review outputs. Start with business tasks (content, analysis, data) before touching code.
 
-**Q5: "Can it work with Tally? We use Tally everywhere."**
-> No direct Tally MCP yet. Workaround: Export Tally data (XML or CSV) → Claude processes exported files → generates insights, reports, migration-ready formats. Works well in practice. Advanced: custom Tally API integration Claude can build.
+**Q5: "Can it work with [Tally](https://tallysolutions.com)? We use [Tally](https://tallysolutions.com) everywhere."**
+> No direct [Tally](https://tallysolutions.com) MCP yet. Workaround: Export [Tally](https://tallysolutions.com) data (XML or CSV) → Claude processes exported files → generates insights, reports, migration-ready formats. Works well in practice. Advanced: custom [Tally](https://tallysolutions.com) API integration Claude can build.
 
 **Q6: "My business is in Gujarati. Can Claude work in Gujarati?"**
 > Yes — Claude reads, writes, translates Gujarati well. Quality: 85-90% vs. English. For critical documents, have Gujarati speaker review Claude output. Tip: write instructions in English, ask Claude to output in Gujarati — better than writing instructions in Gujarati.
@@ -6109,7 +6111,7 @@ For in-depth research, click **"Deep Research"** in the claude.ai chat:
 > Claude output = first draft, not final authority. Always have CA/accountant review financial outputs. Use Claude to eliminate 80% of manual work, not 100% of human judgment. Build QA step into workflow: Claude generates → human reviews flagged items only.
 
 **Q9: "Can I build a ChatGPT-like chatbot for my customers using this?"**
-> Yes, but Claude Code is for building, not the chatbot interface itself. Claude Code + Anthropic API → build custom chatbot → deploy on website or WhatsApp. Takes 2–4 hours for basic version. Session demo if time allows — show them the pattern.
+> Yes, but Claude Code is for building, not the chatbot interface itself. Claude Code + Anthropic API → build custom chatbot → deploy on website or [WhatsApp](https://web.whatsapp.com). Takes 2–4 hours for basic version. Session demo if time allows — show them the pattern.
 
 **Q10: "How do I convince my boss / team to adopt this?"**
 > Don't convince with theory. Build one thing today that solves a real problem they have. Show the output. Let ROI speak. Suggested first wins by role: CA → GST reconciliation demo; Sales → personalized outreach batch; Ops → automated daily report. Demo beats deck every time.
@@ -6121,5 +6123,5 @@ For in-depth research, click **"Deep Research"** in the claude.ai chat:
 - Finance/CA attendees (Theme 3) will have most questions — allocate extra Q&A time
 - Non-technical attendees (Theme 9, 10) may feel left behind during dev demos — reassure with non-code examples
 - Strong agent interest (Theme 6) from developers — have multi-agent demo ready, this audience goes deep fast
-- India-specific tools (GST, Tally, WhatsApp) generate most excitement — lean into these
-- WhatsApp group: create before session, drop cheatsheet link there — everyone checks WhatsApp, not email
+- India-specific tools (GST, [Tally](https://tallysolutions.com), WhatsApp) generate most excitement — lean into these
+- [WhatsApp](https://web.whatsapp.com) group: create before session, drop cheatsheet link there — everyone checks [WhatsApp](https://web.whatsapp.com), not email

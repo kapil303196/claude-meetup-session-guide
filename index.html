@@ -893,6 +893,15 @@
     .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
 
     /* Focus visible */
+    .tool-link {
+      color: #3B82F6;
+      text-decoration: underline;
+      text-decoration-style: dotted;
+    }
+    .tool-link:hover {
+      text-decoration-style: solid;
+    }
+
     a:focus-visible, button:focus-visible, input:focus-visible {
       outline: 2px solid var(--primary);
       outline-offset: 2px;
@@ -1044,7 +1053,7 @@
           <div style="position:absolute; top:0; left:0; right:0; height:3px; background:#F59E0B;"></div>
           <div style="width:36px; height:36px; border-radius:50%; background:#F59E0B; display:flex; align-items:center; justify-content:center; font-family:'Space Grotesk',sans-serif; font-weight:700; color:#fff; font-size:16px;">5</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:var(--text-1);">Connect your tools</div>
-          <div style="font-size:13px; color:var(--text-2); line-height:1.5;">Go to <strong style="color:var(--text-1);">Settings → Integrations</strong>. Connect Google Drive, Gmail, Google Calendar, GitHub, or Notion — no code needed.</div>
+          <div style="font-size:13px; color:var(--text-2); line-height:1.5;">Go to <strong style="color:var(--text-1);">Settings → Integrations</strong>. Connect <a href="https://drive.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Google Drive</a>, <a href="https://mail.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Gmail</a>, <a href="https://calendar.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Google Calendar</a>, <a href="https://github.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">GitHub</a>, or <a href="https://notion.so" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Notion</a> — no code needed.</div>
         </div>
 
       </div>
@@ -1076,21 +1085,21 @@
         <div style="background:var(--surface); border:1px solid rgba(124,58,237,0.3); border-radius:var(--radius); padding:24px; transition:transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 32px rgba(124,58,237,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
           <div style="font-size:28px; margin-bottom:12px;">✍️</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:600; color:var(--text-1); margin-bottom:8px;">Write Content &amp; Emails</div>
-          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Draft sales emails, LinkedIn posts, blog articles, WhatsApp messages, proposals — in your brand voice and any language.</div>
+          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Draft sales emails, <a href="https://linkedin.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">LinkedIn</a> posts, blog articles, <a href="https://web.whatsapp.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">WhatsApp</a> messages, proposals — in your brand voice and any language.</div>
           <div style="font-size:11px; font-weight:600; color:#A78BFA; letter-spacing:0.05em; text-transform:uppercase;">Describe what you need → Get a draft → Edit &amp; send</div>
         </div>
 
         <div style="background:var(--surface); border:1px solid rgba(5,150,105,0.3); border-radius:var(--radius); padding:24px; transition:transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 32px rgba(5,150,105,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
           <div style="font-size:28px; margin-bottom:12px;">🔍</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:600; color:var(--text-1); margin-bottom:8px;">Deep Research Reports</div>
-          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Click "Deep Research" in claude.ai. Claude searches the web and writes a comprehensive report — competitor analysis, market sizing, regulatory updates.</div>
+          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Click "Deep Research" in <a href="https://claude.ai" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">claude.ai</a>. Claude searches the web and writes a comprehensive report — competitor analysis, market sizing, regulatory updates.</div>
           <div style="font-size:11px; font-weight:600; color:#34D399; letter-spacing:0.05em; text-transform:uppercase;">Ask → Claude researches → Full report in minutes</div>
         </div>
 
         <div style="background:var(--surface); border:1px solid rgba(249,115,22,0.3); border-radius:var(--radius); padding:24px; transition:transform 0.2s ease, box-shadow 0.2s ease;" onmouseover="this.style.transform='translateY(-4px)';this.style.boxShadow='0 8px 32px rgba(249,115,22,0.12)'" onmouseout="this.style.transform='';this.style.boxShadow=''">
           <div style="font-size:28px; margin-bottom:12px;">🤖</div>
           <div style="font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:600; color:var(--text-1); margin-bottom:8px;">Automate Repetitive Tasks</div>
-          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Connect Gmail, Google Calendar, and Drive in Settings → Integrations. Then ask Claude to manage emails, schedule meetings, and organise documents.</div>
+          <div style="font-size:13px; color:var(--text-2); line-height:1.6; margin-bottom:12px;">Connect <a href="https://mail.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Gmail</a>, <a href="https://calendar.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Google Calendar</a>, and <a href="https://drive.google.com" target="_blank" rel="noopener" style="color: #3B82F6; text-decoration: underline; text-decoration-style: dotted;">Drive</a> in Settings → Integrations. Then ask Claude to manage emails, schedule meetings, and organise documents.</div>
           <div style="font-size:11px; font-weight:600; color:#FB923C; letter-spacing:0.05em; text-transform:uppercase;">Connect tools → Describe the task → Claude handles it</div>
         </div>
 
@@ -1156,6 +1165,7 @@
       <div class="container">
         <h2 class="section-title">Attendee Directory</h2>
         <p class="section-subtitle">Search and filter all 129 attendees by name, role, or theme.</p>
+        <p style="font-size:12px; color:var(--text-3); margin-bottom:16px; margin-top:-16px;">🔗 All tool links open in a new tab — click any tool name to go directly to its website.</p>
 
         <!-- Search -->
         <div class="search-wrap">
