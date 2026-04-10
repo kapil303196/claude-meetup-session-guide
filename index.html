@@ -1,0 +1,1612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claude Code Session Guide — Ahmedabad 2026</title>
+  <meta name="description" content="Claude Code Meetup — Ahmedabad, April 2026. 129 attendees, hosted by Kapil Upadhyay, Founder & CEO of LogicSpark Technology.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    /* ============================
+       DESIGN TOKENS
+    ============================ */
+    :root {
+      --bg: #030712;
+      --surface: #0D1117;
+      --surface-2: #161B22;
+      --border: #21262D;
+      --primary: #2563EB;
+      --primary-glow: rgba(37,99,235,0.15);
+      --accent: #F97316;
+      --accent-glow: rgba(249,115,22,0.15);
+      --text-1: #F0F6FC;
+      --text-2: #8B949E;
+      --text-3: #484F58;
+      --green: #3FB950;
+      --purple: #BC8CFF;
+      --radius: 12px;
+      --radius-sm: 8px;
+      --radius-xs: 6px;
+      --transition: 0.2s ease;
+    }
+
+    /* ============================
+       RESET & BASE
+    ============================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text-1);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, h4 { font-family: 'Space Grotesk', sans-serif; line-height: 1.2; }
+    a { color: inherit; text-decoration: none; }
+    img { max-width: 100%; }
+    button { cursor: pointer; font-family: inherit; border: none; outline: none; }
+    input { font-family: inherit; outline: none; border: none; }
+
+    /* ============================
+       SCROLLBAR
+    ============================ */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--surface); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+    /* ============================
+       LAYOUT
+    ============================ */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 64px 0; }
+    .section-title {
+      font-size: clamp(22px, 3vw, 28px);
+      font-weight: 700;
+      color: var(--text-1);
+      margin-bottom: 8px;
+    }
+    .section-subtitle {
+      color: var(--text-2);
+      font-size: 15px;
+      margin-bottom: 40px;
+    }
+
+    /* ============================
+       NAV
+    ============================ */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(3,7,18,0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .nav-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-weight: 700;
+      font-size: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-logo span.dot { color: var(--accent); }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      list-style: none;
+    }
+    .nav-links a {
+      color: var(--text-2);
+      font-size: 14px;
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--text-1); }
+    .nav-cta {
+      background: var(--accent);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 6px 16px;
+      border-radius: 999px;
+      transition: opacity var(--transition), transform var(--transition);
+    }
+    .nav-cta:hover { opacity: 0.9; transform: translateY(-1px); }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+    }
+
+    /* ============================
+       HERO / HOST PROFILE
+    ============================ */
+    .hero {
+      position: relative;
+      padding: 80px 0 64px;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 50% at 30% 50%, rgba(37,99,235,0.12) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 60% at 80% 20%, rgba(249,115,22,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+    }
+    @media (max-width: 768px) {
+      .hero-grid { grid-template-columns: 1fr; gap: 32px; }
+    }
+
+    /* Profile Card */
+    .profile-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+    .profile-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--primary), var(--accent));
+    }
+    .profile-card:hover {
+      border-color: rgba(37,99,235,0.4);
+      box-shadow: 0 0 40px rgba(37,99,235,0.1);
+    }
+    .profile-top {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2563EB, #7C3AED);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+      flex-shrink: 0;
+      box-shadow: 0 0 24px rgba(37,99,235,0.4);
+    }
+    .profile-name {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--text-1);
+      margin-bottom: 2px;
+    }
+    .profile-role {
+      font-size: 13px;
+      color: var(--text-2);
+    }
+    .profile-role span {
+      color: var(--primary);
+      font-weight: 500;
+    }
+    .facilitator-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 11px;
+      color: var(--text-2);
+      margin-top: 8px;
+    }
+    .facilitator-badge .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--green);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .tagline {
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--text-1);
+      margin-bottom: 8px;
+      font-family: 'Space Grotesk', sans-serif;
+    }
+    .tagline .glow {
+      color: var(--accent);
+      text-shadow: 0 0 20px rgba(249,115,22,0.5);
+    }
+    .about-text {
+      font-size: 14px;
+      color: var(--text-2);
+      margin-bottom: 20px;
+      line-height: 1.7;
+    }
+    .service-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+    .service-badge {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 4px 12px;
+      font-size: 12px;
+      color: var(--text-2);
+      transition: border-color var(--transition), color var(--transition);
+    }
+    .service-badge:hover {
+      border-color: var(--primary);
+      color: var(--text-1);
+    }
+    .contact-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 18px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: transform var(--transition), opacity var(--transition), box-shadow var(--transition);
+    }
+    .btn:hover { transform: translateY(-2px); opacity: 0.92; }
+    .btn-linkedin { background: #1B65CE; color: #fff; }
+    .btn-linkedin:hover { box-shadow: 0 4px 20px rgba(27,101,206,0.4); }
+    .btn-whatsapp { background: #22C55E; color: #fff; }
+    .btn-whatsapp:hover { box-shadow: 0 4px 20px rgba(34,197,94,0.4); }
+    .btn-email { background: var(--surface-2); border: 1px solid var(--border); color: var(--text-2); }
+    .btn-email:hover { color: var(--text-1); border-color: var(--text-3); }
+    .btn-cta {
+      background: var(--accent);
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: 0 4px 20px rgba(249,115,22,0.3);
+    }
+    .btn-cta:hover { box-shadow: 0 6px 30px rgba(249,115,22,0.5); }
+
+    /* Hero right side */
+    .hero-info h1 {
+      font-size: clamp(28px, 5vw, 48px);
+      font-weight: 700;
+      line-height: 1.1;
+      margin-bottom: 16px;
+    }
+    .hero-info h1 .accent { color: var(--accent); }
+    .hero-info h1 .primary { color: var(--primary); }
+    .hero-info p {
+      font-size: 16px;
+      color: var(--text-2);
+      margin-bottom: 32px;
+      max-width: 480px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: 0 4px 20px rgba(37,99,235,0.3);
+    }
+    .btn-primary:hover { box-shadow: 0 6px 30px rgba(37,99,235,0.5); }
+    .btn-ghost {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-2);
+    }
+    .btn-ghost:hover { border-color: var(--text-3); color: var(--text-1); }
+
+    /* ============================
+       STATS BAR
+    ============================ */
+    .stats-bar {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+    }
+    .stats-inner {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding: 24px 20px;
+      flex: 1;
+      min-width: 160px;
+      position: relative;
+    }
+    .stat-item + .stat-item::before {
+      content: '';
+      position: absolute;
+      left: 0; top: 20%; bottom: 20%;
+      width: 1px;
+      background: var(--border);
+    }
+    @media (max-width: 600px) {
+      .stat-item + .stat-item::before { display: none; }
+      .stat-item { min-width: 140px; }
+    }
+    .stat-icon {
+      width: 44px; height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .stat-icon.blue { background: rgba(37,99,235,0.15); }
+    .stat-icon.orange { background: rgba(249,115,22,0.15); }
+    .stat-icon.purple { background: rgba(124,58,237,0.15); }
+    .stat-icon.green { background: rgba(63,185,80,0.15); }
+    .stat-num {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--text-1);
+      display: block;
+    }
+    .stat-label {
+      font-size: 12px;
+      color: var(--text-2);
+      display: block;
+    }
+
+    /* ============================
+       SEARCH & FILTER
+    ============================ */
+    .filter-section { padding: 48px 0 0; }
+    .search-wrap {
+      position: relative;
+      margin-bottom: 24px;
+    }
+    .search-icon {
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--text-3);
+      pointer-events: none;
+    }
+    .search-input {
+      width: 100%;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 14px 16px 14px 46px;
+      color: var(--text-1);
+      font-size: 15px;
+      transition: border-color var(--transition), box-shadow var(--transition);
+    }
+    .search-input::placeholder { color: var(--text-3); }
+    .search-input:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px var(--primary-glow);
+    }
+    .filter-group { margin-bottom: 20px; }
+    .filter-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      color: var(--text-3);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .filter-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .pill {
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-2);
+      cursor: pointer;
+      transition: all var(--transition);
+      user-select: none;
+    }
+    .pill:hover { border-color: var(--text-3); color: var(--text-1); }
+    .pill.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #fff;
+      box-shadow: 0 2px 12px rgba(37,99,235,0.35);
+    }
+    .pill.active-theme { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+
+    /* results count */
+    .results-info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 24px;
+      margin-bottom: 0;
+      padding-bottom: 16px;
+    }
+    .results-count {
+      font-size: 13px;
+      color: var(--text-3);
+    }
+    .results-count span { color: var(--text-1); font-weight: 600; }
+    .clear-btn {
+      font-size: 12px;
+      color: var(--text-3);
+      background: none;
+      cursor: pointer;
+      transition: color var(--transition);
+    }
+    .clear-btn:hover { color: var(--text-2); }
+
+    /* ============================
+       ATTENDEE GRID
+    ============================ */
+    .attendee-section { padding: 24px 0 64px; }
+    .attendee-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 1024px) {
+      .attendee-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .attendee-grid { grid-template-columns: 1fr; }
+    }
+
+    /* Attendee Card */
+    .attendee-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px;
+      cursor: pointer;
+      transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      animation: fadeIn 0.3s ease forwards;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .attendee-card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(37,99,235,0.35);
+      box-shadow: 0 8px 32px rgba(37,99,235,0.12), 0 0 0 1px rgba(37,99,235,0.1);
+    }
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+    }
+    .card-name {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-1);
+      line-height: 1.3;
+    }
+    .role-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 999px;
+      font-size: 11px;
+      font-weight: 600;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .card-problem {
+      font-size: 13px;
+      color: var(--text-2);
+      line-height: 1.5;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      margin-top: auto;
+    }
+    .theme-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .theme-pill {
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .view-link {
+      font-size: 12px;
+      color: var(--primary);
+      font-weight: 500;
+      white-space: nowrap;
+      transition: color var(--transition);
+      flex-shrink: 0;
+    }
+    .view-link:hover { color: #60A5FA; }
+    .no-results {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-3);
+    }
+    .no-results h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: var(--text-2);
+    }
+
+    /* ============================
+       ROLE / THEME COLORS
+    ============================ */
+    /* Role badges */
+    .role-startup { background: rgba(37,99,235,0.15); color: #60A5FA; }
+    .role-business { background: rgba(124,58,237,0.15); color: #A78BFA; }
+    .role-professional { background: rgba(5,150,105,0.15); color: #34D399; }
+    .role-developer { background: rgba(217,119,6,0.15); color: #FCD34D; }
+    .role-student { background: rgba(219,39,119,0.15); color: #F472B6; }
+    .role-designer { background: rgba(8,145,178,0.15); color: #22D3EE; }
+    .role-enabler { background: rgba(107,114,128,0.15); color: #9CA3AF; }
+
+    /* Theme pills */
+    .theme-tokens { background: rgba(244,63,94,0.15); color: #FB7185; }
+    .theme-sales { background: rgba(37,99,235,0.15); color: #60A5FA; }
+    .theme-finance { background: rgba(5,150,105,0.15); color: #34D399; }
+    .theme-ops { background: rgba(202,138,4,0.15); color: #FDE047; }
+    .theme-content { background: rgba(124,58,237,0.15); color: #A78BFA; }
+    .theme-agents { background: rgba(249,115,22,0.15); color: #FB923C; }
+    .theme-rag { background: rgba(20,184,166,0.15); color: #2DD4BF; }
+    .theme-data { background: rgba(6,182,212,0.15); color: #22D3EE; }
+    .theme-web { background: rgba(99,102,241,0.15); color: #818CF8; }
+    .theme-learning { background: rgba(107,114,128,0.15); color: #9CA3AF; }
+
+    /* ============================
+       THEMES SECTION
+    ============================ */
+    .themes-section {
+      background: var(--surface);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .themes-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+    }
+    @media (max-width: 1024px) {
+      .themes-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media (max-width: 640px) {
+      .themes-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .theme-card {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 20px 16px;
+      cursor: pointer;
+      transition: transform var(--transition), border-color var(--transition), box-shadow var(--transition);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .theme-card:hover {
+      transform: translateY(-4px);
+    }
+    .theme-card-icon {
+      font-size: 24px;
+      line-height: 1;
+    }
+    .theme-card-label {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-1);
+      line-height: 1.3;
+    }
+    .theme-card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .theme-count-badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 999px;
+    }
+    .theme-guide-link {
+      font-size: 11px;
+      font-weight: 500;
+      transition: opacity var(--transition);
+    }
+    .theme-guide-link:hover { opacity: 0.7; }
+
+    /* Token — rose */
+    .tc-tokens { border-color: rgba(244,63,94,0.25); }
+    .tc-tokens:hover { border-color: rgba(244,63,94,0.5); box-shadow: 0 8px 24px rgba(244,63,94,0.1); }
+    .tc-tokens .theme-count-badge { background: rgba(244,63,94,0.15); color: #FB7185; }
+    .tc-tokens .theme-guide-link { color: #FB7185; }
+    /* Sales — blue */
+    .tc-sales { border-color: rgba(37,99,235,0.25); }
+    .tc-sales:hover { border-color: rgba(37,99,235,0.5); box-shadow: 0 8px 24px rgba(37,99,235,0.1); }
+    .tc-sales .theme-count-badge { background: rgba(37,99,235,0.15); color: #60A5FA; }
+    .tc-sales .theme-guide-link { color: #60A5FA; }
+    /* Finance — green */
+    .tc-finance { border-color: rgba(5,150,105,0.25); }
+    .tc-finance:hover { border-color: rgba(5,150,105,0.5); box-shadow: 0 8px 24px rgba(5,150,105,0.1); }
+    .tc-finance .theme-count-badge { background: rgba(5,150,105,0.15); color: #34D399; }
+    .tc-finance .theme-guide-link { color: #34D399; }
+    /* Ops — yellow */
+    .tc-ops { border-color: rgba(202,138,4,0.25); }
+    .tc-ops:hover { border-color: rgba(202,138,4,0.5); box-shadow: 0 8px 24px rgba(202,138,4,0.1); }
+    .tc-ops .theme-count-badge { background: rgba(202,138,4,0.15); color: #FDE047; }
+    .tc-ops .theme-guide-link { color: #FDE047; }
+    /* Content — purple */
+    .tc-content { border-color: rgba(124,58,237,0.25); }
+    .tc-content:hover { border-color: rgba(124,58,237,0.5); box-shadow: 0 8px 24px rgba(124,58,237,0.1); }
+    .tc-content .theme-count-badge { background: rgba(124,58,237,0.15); color: #A78BFA; }
+    .tc-content .theme-guide-link { color: #A78BFA; }
+    /* Agents — orange */
+    .tc-agents { border-color: rgba(249,115,22,0.25); }
+    .tc-agents:hover { border-color: rgba(249,115,22,0.5); box-shadow: 0 8px 24px rgba(249,115,22,0.1); }
+    .tc-agents .theme-count-badge { background: rgba(249,115,22,0.15); color: #FB923C; }
+    .tc-agents .theme-guide-link { color: #FB923C; }
+    /* RAG — teal */
+    .tc-rag { border-color: rgba(20,184,166,0.25); }
+    .tc-rag:hover { border-color: rgba(20,184,166,0.5); box-shadow: 0 8px 24px rgba(20,184,166,0.1); }
+    .tc-rag .theme-count-badge { background: rgba(20,184,166,0.15); color: #2DD4BF; }
+    .tc-rag .theme-guide-link { color: #2DD4BF; }
+    /* Data — cyan */
+    .tc-data { border-color: rgba(6,182,212,0.25); }
+    .tc-data:hover { border-color: rgba(6,182,212,0.5); box-shadow: 0 8px 24px rgba(6,182,212,0.1); }
+    .tc-data .theme-count-badge { background: rgba(6,182,212,0.15); color: #22D3EE; }
+    .tc-data .theme-guide-link { color: #22D3EE; }
+    /* Web — indigo */
+    .tc-web { border-color: rgba(99,102,241,0.25); }
+    .tc-web:hover { border-color: rgba(99,102,241,0.5); box-shadow: 0 8px 24px rgba(99,102,241,0.1); }
+    .tc-web .theme-count-badge { background: rgba(99,102,241,0.15); color: #818CF8; }
+    .tc-web .theme-guide-link { color: #818CF8; }
+    /* Learning — gray */
+    .tc-learning { border-color: rgba(107,114,128,0.25); }
+    .tc-learning:hover { border-color: rgba(107,114,128,0.5); box-shadow: 0 8px 24px rgba(107,114,128,0.1); }
+    .tc-learning .theme-count-badge { background: rgba(107,114,128,0.15); color: #9CA3AF; }
+    .tc-learning .theme-guide-link { color: #9CA3AF; }
+
+    /* ============================
+       CTA SECTION
+    ============================ */
+    .cta-section { padding: 80px 0; }
+    .cta-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 56px 48px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .cta-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--accent), var(--primary));
+    }
+    .cta-card::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; right: -60px;
+      width: 240px; height: 240px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(249,115,22,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    @media (max-width: 768px) {
+      .cta-card { grid-template-columns: 1fr; padding: 36px 24px; }
+    }
+    .cta-title {
+      font-size: clamp(22px, 3vw, 30px);
+      font-weight: 700;
+      margin-bottom: 12px;
+      line-height: 1.2;
+    }
+    .cta-title .accent { color: var(--accent); }
+    .cta-desc {
+      color: var(--text-2);
+      font-size: 15px;
+      margin-bottom: 24px;
+    }
+    .cta-services {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 32px;
+    }
+    .cta-service {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--text-2);
+    }
+    .cta-service::before {
+      content: '';
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+    }
+    .cta-buttons { display: flex; flex-wrap: wrap; gap: 12px; }
+    .cta-right {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px 24px;
+    }
+    .cta-right-title {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 15px;
+      font-weight: 600;
+      margin-bottom: 16px;
+      color: var(--text-1);
+    }
+    .contact-list { display: flex; flex-direction: column; gap: 12px; }
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 14px;
+      color: var(--text-2);
+      transition: color var(--transition);
+    }
+    .contact-item:hover { color: var(--text-1); }
+    .contact-item-icon {
+      width: 36px; height: 36px;
+      border-radius: var(--radius-xs);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+    .ci-green { background: rgba(34,197,94,0.12); }
+    .ci-blue { background: rgba(27,101,206,0.12); }
+    .ci-gray { background: var(--border); }
+
+    /* ============================
+       FOOTER
+    ============================ */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .footer-logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-2);
+    }
+    .footer-logo span { color: var(--accent); }
+    .footer-links {
+      display: flex;
+      gap: 20px;
+      list-style: none;
+    }
+    .footer-links a {
+      font-size: 13px;
+      color: var(--text-3);
+      transition: color var(--transition);
+    }
+    .footer-links a:hover { color: var(--text-2); }
+    .footer-copy {
+      font-size: 12px;
+      color: var(--text-3);
+    }
+
+    /* ============================
+       UTILITY
+    ============================ */
+    .divider { height: 1px; background: var(--border); margin: 0; }
+    .hidden { display: none !important; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0); }
+
+    /* Focus visible */
+    a:focus-visible, button:focus-visible, input:focus-visible {
+      outline: 2px solid var(--primary);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============================
+       NAV
+  ============================ -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">
+        Claude<span class="dot">.</span>Meetup
+        <span style="color:var(--text-3); font-weight:400; font-size:12px;">Ahmedabad '26</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#attendees">Attendees</a></li>
+        <li><a href="#themes">Themes</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md" target="_blank" rel="noopener">Session Guide</a></li>
+      </ul>
+      <a class="nav-cta btn" href="https://wa.me/917383957073" target="_blank" rel="noopener">Book a Call</a>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO / HOST PROFILE
+  ============================ -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Profile Card -->
+        <div class="profile-card">
+          <div class="profile-top">
+            <div class="avatar" aria-label="Kapil Upadhyay initials">KU</div>
+            <div>
+              <div class="profile-name">Kapil Upadhyay</div>
+              <div class="profile-role">Founder &amp; CEO · <span>LogicSpark Technology</span></div>
+              <div class="facilitator-badge">
+                <span class="dot"></span>
+                Session Facilitator &nbsp;·&nbsp; Claude Code Expert
+              </div>
+            </div>
+          </div>
+
+          <div class="tagline">
+            Your Idea → <span class="glow">Working Product in 30 Days</span>
+          </div>
+          <p class="about-text">
+            AI-first custom software studio. Builds SaaS, web apps, mobile apps, and AI integrations for startups &amp; SMBs worldwide. <strong style="color:var(--text-1)">70+ clients served.</strong> Full-stack expertise: MEAN stack, React Native, AI/ML, DevOps. Starting at $25/hr.
+          </p>
+
+          <div class="service-badges">
+            <span class="service-badge">AI Development</span>
+            <span class="service-badge">SaaS</span>
+            <span class="service-badge">Mobile Apps</span>
+            <span class="service-badge">MVP in 30 Days</span>
+            <span class="service-badge">70+ Clients</span>
+          </div>
+
+          <div class="contact-buttons">
+            <a class="btn btn-linkedin" href="https://www.linkedin.com/in/upadhyaykapil/" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+            <a class="btn btn-whatsapp" href="https://wa.me/917383957073" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.106.546 4.083 1.5 5.799L0 24l6.388-1.673A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.513-5.16-1.4l-.37-.22-3.794.994.992-3.698-.24-.382A10 10 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              WhatsApp
+            </a>
+            <a class="btn btn-email" href="mailto:kapil@logicspark.io">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+              Email
+            </a>
+          </div>
+          <a class="btn btn-cta" href="https://wa.me/917383957073" target="_blank" rel="noopener" style="align-self: flex-start; margin-top: 4px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V6a2 2 0 012-2z"/></svg>
+            Book a Call with Kapil
+          </a>
+        </div>
+
+        <!-- Hero Info -->
+        <div class="hero-info">
+          <h1>
+            Claude Code<br>
+            <span class="primary">Meetup</span> —<br>
+            <span class="accent">Ahmedabad</span> 2026
+          </h1>
+          <p>
+            The largest Claude Code gathering in Ahmedabad. 129 builders, founders, developers, and AI enthusiasts deep-diving into real-world AI automation challenges.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#attendees">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="17" cy="7" r="4"/><path d="M3 21v-2a4 4 0 014-4h5"/><circle cx="9" cy="7" r="4"/></svg>
+              Browse Attendees
+            </a>
+            <a class="btn btn-ghost" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+              Session Guide
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       STATS BAR
+  ============================ -->
+  <div class="stats-bar">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <div class="stat-icon blue">👥</div>
+        <div>
+          <span class="stat-num" data-target="129">0</span>
+          <span class="stat-label">Attendees</span>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon purple">🎭</div>
+        <div>
+          <span class="stat-num" data-target="7">0</span>
+          <span class="stat-label">Roles</span>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon orange">💡</div>
+        <div>
+          <span class="stat-num" data-target="10">0</span>
+          <span class="stat-label">Themes</span>
+        </div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon green">📍</div>
+        <div>
+          <span class="stat-num" style="font-size:18px; line-height:1.4">April 2026</span>
+          <span class="stat-label">Ahmedabad, India</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================
+       SEARCH & FILTER
+  ============================ -->
+  <div id="attendees">
+    <section class="filter-section">
+      <div class="container">
+        <h2 class="section-title">Attendee Directory</h2>
+        <p class="section-subtitle">Search and filter all 129 attendees by name, role, or theme.</p>
+
+        <!-- Search -->
+        <div class="search-wrap">
+          <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+          <input
+            class="search-input"
+            type="search"
+            id="searchInput"
+            placeholder="Search attendees by name or problem..."
+            aria-label="Search attendees"
+            autocomplete="off"
+          >
+        </div>
+
+        <!-- Role Filter -->
+        <div class="filter-group">
+          <div class="filter-label">Filter by Role</div>
+          <div class="filter-pills" id="roleFilters">
+            <button class="pill active" data-role="all">All</button>
+            <button class="pill" data-role="startup">Startup Founder</button>
+            <button class="pill" data-role="business">Business Owner</button>
+            <button class="pill" data-role="professional">Working Professional</button>
+            <button class="pill" data-role="developer">Developer</button>
+            <button class="pill" data-role="student">Student</button>
+            <button class="pill" data-role="designer">Designer</button>
+            <button class="pill" data-role="enabler">Ecosystem Enabler</button>
+          </div>
+        </div>
+
+        <!-- Theme Filter -->
+        <div class="filter-group">
+          <div class="filter-label">Filter by Theme</div>
+          <div class="filter-pills" id="themeFilters">
+            <button class="pill active" data-theme="all">All</button>
+            <button class="pill" data-theme="tokens">Token Limits</button>
+            <button class="pill" data-theme="sales">Sales &amp; Lead Gen</button>
+            <button class="pill" data-theme="finance">Finance &amp; Tax</button>
+            <button class="pill" data-theme="ops">Operations</button>
+            <button class="pill" data-theme="content">Content Creation</button>
+            <button class="pill" data-theme="agents">AI Agents</button>
+            <button class="pill" data-theme="rag">RAG/Knowledge</button>
+            <button class="pill" data-theme="data">Data Extraction</button>
+            <button class="pill" data-theme="web">Web/App Building</button>
+            <button class="pill" data-theme="learning">Learning</button>
+          </div>
+        </div>
+
+        <!-- Results info -->
+        <div class="results-info">
+          <div class="results-count">Showing <span id="resultCount">129</span> of 129 attendees</div>
+          <button class="clear-btn" id="clearBtn">Clear filters</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================
+         ATTENDEE GRID
+    ============================ -->
+    <section class="attendee-section">
+      <div class="container">
+        <div class="attendee-grid" id="attendeeGrid"></div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ============================
+       THEMES SECTION
+  ============================ -->
+  <section class="themes-section" id="themes">
+    <div class="container">
+      <h2 class="section-title">Session Themes</h2>
+      <p class="section-subtitle">10 core problem areas explored across all 129 attendees.</p>
+      <div class="themes-grid">
+
+        <a class="theme-card tc-tokens" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-1-token--context-limits" target="_blank" rel="noopener">
+          <div class="theme-card-icon">🔢</div>
+          <div class="theme-card-label">Token &amp; Context Limits</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">25 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-sales" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-2-sales--lead-generation" target="_blank" rel="noopener">
+          <div class="theme-card-icon">📈</div>
+          <div class="theme-card-label">Sales &amp; Lead Generation</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">18 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-finance" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-3-finance--tax" target="_blank" rel="noopener">
+          <div class="theme-card-icon">💰</div>
+          <div class="theme-card-label">Finance &amp; Tax</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">20 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-ops" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-4-operations--workflow" target="_blank" rel="noopener">
+          <div class="theme-card-icon">⚙️</div>
+          <div class="theme-card-label">Operations &amp; Workflow</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">28 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-content" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-5-content-creation" target="_blank" rel="noopener">
+          <div class="theme-card-icon">✍️</div>
+          <div class="theme-card-label">Content Creation</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">14 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-agents" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-6-ai-agents" target="_blank" rel="noopener">
+          <div class="theme-card-icon">🤖</div>
+          <div class="theme-card-label">AI Agents</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">15 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-rag" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-7-ragknowledge-base" target="_blank" rel="noopener">
+          <div class="theme-card-icon">🧠</div>
+          <div class="theme-card-label">RAG / Knowledge Base</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">8 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-data" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-8-data-extraction" target="_blank" rel="noopener">
+          <div class="theme-card-icon">📊</div>
+          <div class="theme-card-label">Data Extraction</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">22 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-web" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-9-webapp-building" target="_blank" rel="noopener">
+          <div class="theme-card-icon">🌐</div>
+          <div class="theme-card-label">Web / App Building</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">20 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+        <a class="theme-card tc-learning" href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#theme-10-learning--getting-started" target="_blank" rel="noopener">
+          <div class="theme-card-icon">📚</div>
+          <div class="theme-card-label">Learning &amp; Getting Started</div>
+          <div class="theme-card-footer">
+            <span class="theme-count-badge">35 attendees</span>
+            <span class="theme-guide-link">View in Guide →</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CTA / CONTACT SECTION
+  ============================ -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-card">
+        <div>
+          <h2 class="cta-title">Need help building with AI?<br><span class="accent">LogicSpark can help.</span></h2>
+          <p class="cta-desc">
+            We turn your boldest ideas into production-ready software — fast. Whether you need an MVP in 30 days, an AI agent for your business, or a scalable SaaS platform.
+          </p>
+          <div class="cta-services">
+            <div class="cta-service">MVP in 30 Days</div>
+            <div class="cta-service">AI Agent Development</div>
+            <div class="cta-service">SaaS &amp; Web Apps</div>
+            <div class="cta-service">Claude Code Integration</div>
+          </div>
+          <div class="cta-buttons">
+            <a class="btn btn-cta" href="https://wa.me/917383957073" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.106.546 4.083 1.5 5.799L0 24l6.388-1.673A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.885 0-3.65-.513-5.16-1.4l-.37-.22-3.794.994.992-3.698-.24-.382A10 10 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
+              Book a Call (WhatsApp)
+            </a>
+            <a class="btn btn-linkedin" href="https://www.linkedin.com/in/upadhyaykapil/" target="_blank" rel="noopener">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="cta-right">
+            <div class="cta-right-title">Get in touch</div>
+            <div class="contact-list">
+              <a class="contact-item" href="https://wa.me/917383957073" target="_blank" rel="noopener">
+                <div class="contact-item-icon ci-green">💬</div>
+                <div>
+                  <div style="color:var(--text-1); font-size:13px; font-weight:500;">WhatsApp</div>
+                  <div style="font-size:12px;">+91 73839 57073</div>
+                </div>
+              </a>
+              <a class="contact-item" href="mailto:kapil@logicspark.io">
+                <div class="contact-item-icon ci-gray">✉️</div>
+                <div>
+                  <div style="color:var(--text-1); font-size:13px; font-weight:500;">Email</div>
+                  <div style="font-size:12px;">kapil@logicspark.io</div>
+                </div>
+              </a>
+              <a class="contact-item" href="https://www.linkedin.com/in/upadhyaykapil/" target="_blank" rel="noopener">
+                <div class="contact-item-icon ci-blue">🔗</div>
+                <div>
+                  <div style="color:var(--text-1); font-size:13px; font-weight:500;">LinkedIn</div>
+                  <div style="font-size:12px;">linkedin.com/in/upadhyaykapil</div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">Claude<span>.</span>Meetup · Ahmedabad 2026</div>
+      <ul class="footer-links">
+        <li><a href="https://github.com/kapil303196/claude-meetup-session-guide" target="_blank" rel="noopener">GitHub Repo</a></li>
+        <li><a href="https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md" target="_blank" rel="noopener">Session Guide</a></li>
+        <li><a href="https://logicspark.io" target="_blank" rel="noopener">LogicSpark</a></li>
+      </ul>
+      <div class="footer-copy">Hosted by Kapil Upadhyay · LogicSpark Technology</div>
+    </div>
+  </footer>
+
+  <!-- ============================
+       JAVASCRIPT
+  ============================ -->
+  <script>
+    // ==========================================
+    // ATTENDEE DATA
+    // ==========================================
+    const attendees = [
+      {name:"Amish Thaker",role:"startup",problem:"Sales Outbound automation",themes:["sales"],anchor:"amish-thaker--startup-founder"},
+      {name:"Parth Jala",role:"startup",problem:"Client outreach, onboarding & funnel creation",themes:["sales","ops"],anchor:"parth-jala--startup-founder"},
+      {name:"Prakruti Joshi",role:"business",problem:"Working smarter with AI",themes:["learning","ops"],anchor:"prakruti-joshi--business-owner--freelancer"},
+      {name:"Devesh Gupta",role:"business",problem:"Improve operations & service delivery",themes:["ops"],anchor:"devesh-gupta--business-owner--freelancer"},
+      {name:"Patel Om",role:"business",problem:"Content creation at scale",themes:["content"],anchor:"patel-om--business-owner--freelancer"},
+      {name:"Ronak",role:"business",problem:"Sales automation",themes:["sales"],anchor:"ronak--business-owner--freelancer"},
+      {name:"Tapas Ruparelia",role:"business",problem:"Unlocking Claude's full capabilities",themes:["learning"],anchor:"tapas-ruparelia--business-owner--freelancer"},
+      {name:"Rushabh Shah",role:"business",problem:"Automating communication funnels",themes:["sales","ops"],anchor:"rushabh-shah--business-owner--freelancer"},
+      {name:"Raja Khatri",role:"professional",problem:"Finding AI-powered design solutions",themes:["learning"],anchor:"raja-khatri--working-professional"},
+      {name:"Sagar Solanki",role:"professional",problem:"Lead gen automation + RFP response speed",themes:["sales","data"],anchor:"sagar-solanki--working-professional"},
+      {name:"Sumit Kasardekar",role:"startup",problem:"Learning Claude effectively",themes:["learning"],anchor:"sumit-kasardekar--startup-founder"},
+      {name:"Jignesh Thakkar",role:"business",problem:"Agentifying systems, reducing token burn",themes:["tokens","agents"],anchor:"jignesh-thakkar--business-owner--freelancer"},
+      {name:"Jayraj Vora",role:"startup",problem:"Lead generation, nurturing & sales automation",themes:["sales"],anchor:"jayraj-vora--startup-founder"},
+      {name:"Manthan Devani",role:"developer",problem:"Optimize Cosmos DB & modernize legacy code",themes:["learning","tokens"],anchor:"manthan-devani--software-engineer--developer"},
+      {name:"Punilrajsinh Solanki",role:"professional",problem:"Authentic, focused research with insight",themes:["learning"],anchor:"punilrajsinh-solanki--working-professional"},
+      {name:"Nimesh Yadav",role:"professional",problem:"Extract data from photos & emails into structured formats",themes:["data"],anchor:"nimesh-yadav--working-professional"},
+      {name:"Darshit M Lakhani",role:"startup",problem:"Building RAG systems & agents",themes:["rag","agents"],anchor:"darshit-m-lakhani--startup-founder"},
+      {name:"Pritesh Lakhani",role:"startup",problem:"Building RAG systems & agents",themes:["rag","agents"],anchor:"pritesh-lakhani--startup-founder"},
+      {name:"Indra Ratanpal",role:"professional",problem:"Automate financial reporting & variance analysis",themes:["finance"],anchor:"indra-ratanpal--working-professional"},
+      {name:"Lokesh Shah",role:"professional",problem:"Fix BU & Handover data fetch in live RERA portal",themes:["data","web"],anchor:"lokesh-shah--working-professional"},
+      {name:"Saharsh Gandhi",role:"professional",problem:"Workflow automation for coworking space",themes:["ops"],anchor:"saharsh-gandhi--working-professional"},
+      {name:"Bhagyesh Patel",role:"business",problem:"Automation workflows & communication ops",themes:["ops"],anchor:"bhagyesh-patel--business-owner--freelancer"},
+      {name:"Parin Shah",role:"professional",problem:"Finance & accounting automation (GST, 26AS, ERP)",themes:["finance"],anchor:"parin-shah--working-professional"},
+      {name:"Bhavik Chavda",role:"professional",problem:"SEO & Claude Dispatch automation",themes:["content","ops"],anchor:"bhavik-chavda--working-professional"},
+      {name:"Kaumil Patel",role:"professional",problem:"Learning how to get the most from Claude",themes:["learning"],anchor:"kaumil-patel--working-professional"},
+      {name:"Dr Darshil Bhatt",role:"business",problem:"Lead generation for personal practice",themes:["sales"],anchor:"dr-darshil-bhatt--business-owner--freelancer"},
+      {name:"Poojan Ghetiya",role:"startup",problem:"Documentation automation",themes:["ops","learning"],anchor:"poojan-ghetiya--startup-founder"},
+      {name:"Nemin Vora",role:"professional",problem:"MCP infrastructure & agent-powered marketing",themes:["agents","tokens"],anchor:"nemin-vora--working-professional"},
+      {name:"Shweta Gupta",role:"student",problem:"Using Claude for design & code understanding",themes:["learning","web"],anchor:"shweta-gupta--student"},
+      {name:"Gaurav Ganjwala",role:"professional",problem:"Accounting & tax audit automation",themes:["finance"],anchor:"gaurav-ganjwala--working-professional"},
+      {name:"Poojan Pathak",role:"professional",problem:"Optimal utilization of Claude",themes:["learning"],anchor:"poojan-pathak--working-professional"},
+      {name:"Nikhil Soneji",role:"professional",problem:"Project-wise P&L tool + inventory dashboard",themes:["finance"],anchor:"nikhil-soneji--working-professional"},
+      {name:"Varmora Ashish",role:"student",problem:"Agentic AI and automation",themes:["agents","learning"],anchor:"varmora-ashish-manaharbhai--student"},
+      {name:"Sushil Manglani",role:"business",problem:"Digital presence & market visibility",themes:["content","sales"],anchor:"sushil-manglani--business-owner--freelancer"},
+      {name:"Denish Sojjitra",role:"student",problem:"Automation for Travel Tech platform",themes:["web","ops"],anchor:"denish-sojjitra--student"},
+      {name:"Manoj Lahoti",role:"professional",problem:"Automate travel company billing & sales reports",themes:["ops","finance"],anchor:"manoj-lahoti--working-professional"},
+      {name:"Praveen Sharma",role:"business",problem:"Auto-generate GMP/WHO audit-ready validation reports",themes:["data","ops"],anchor:"praveen-sharma--business-owner--freelancer"},
+      {name:"Prithaviraj",role:"professional",problem:"Scale compliance intelligence platform",themes:["web","ops"],anchor:"prithaviraj--working-professional"},
+      {name:"Mayank Chhunchha",role:"startup",problem:"Understand employer mindset for employee healthcare",themes:["learning","sales"],anchor:"mayank-chhunchha--startup-founder"},
+      {name:"Sneh Patel",role:"professional",problem:"KPI intelligence from raw source data",themes:["finance","data"],anchor:"sneh-patel--working-professional"},
+      {name:"Vikrant Rindani",role:"developer",problem:"ECO machine data interpretation",themes:["data","ops"],anchor:"vikrant-rindani--software-engineer--developer"},
+      {name:"Nimesh Lathiya",role:"business",problem:"Save team time with AI",themes:["learning","ops"],anchor:"nimesh-lathiya--business-owner--freelancer"},
+      {name:"Krishna",role:"startup",problem:"Token efficiency & prompt accuracy at scale",themes:["tokens"],anchor:"krishna--startup-founder"},
+      {name:"Mausami Anjaria",role:"professional",problem:"CLAUDE.md vs skill .md — understanding the difference",themes:["learning"],anchor:"mausami-anjaria--working-professional"},
+      {name:"Vishvam",role:"startup",problem:"D2C real-time customer data → profit decisions",themes:["data","sales","finance"],anchor:"vishvam--startup-founder"},
+      {name:"Vipul",role:"business",problem:"Realtime OS & firmware development",themes:["learning"],anchor:"vipul--business-owner--freelancer"},
+      {name:"Anshun Gosalia",role:"professional",problem:"Accelerate concept-to-execution",themes:["ops","learning"],anchor:"anshun-gosalia--working-professional"},
+      {name:"Divya Gosalia",role:"professional",problem:"Token exhaustion while creating social plans",themes:["tokens","content"],anchor:"divya-gosalia--working-professional"},
+      {name:"Bhavdev Gadhavi Charan",role:"startup",problem:"Ecommerce operations",themes:["web","ops"],anchor:"bhavdev-gadhavi-charan--startup-founder"},
+      {name:"Drishti Bhagchandani",role:"business",problem:"Website building without technical skills",themes:["web"],anchor:"drishti-bhagchandani--business-owner--freelancer"},
+      {name:"Aman Pandya",role:"business",problem:"Exploring AI for business",themes:["learning"],anchor:"aman-pandya--business-owner--freelancer"},
+      {name:"Tushar Patel",role:"business",problem:"Employee workflow: KRA, todos, reminders, points system",themes:["ops"],anchor:"tushar-patel--business-owner--freelancer"},
+      {name:"Shekhar Nirmal",role:"business",problem:"Analysis and insight from reports",themes:["data"],anchor:"shekhar-nirmal--business-owner--freelancer"},
+      {name:"Kaval Rathod",role:"professional",problem:"Always hitting token/credit limits",themes:["tokens"],anchor:"kaval-rathod--working-professional"},
+      {name:"Rahul Jhunjhunwala",role:"startup",problem:"Automate startup tasks efficiently + SEO",themes:["ops","content"],anchor:"rahul-jhunjhunwala--startup-founder"},
+      {name:"Keval Bhanushali",role:"developer",problem:"PHP APIs + Android/iOS integration + Apache debugging",themes:["web","tokens"],anchor:"keval-bhanushali--software-engineer--developer"},
+      {name:"Feni Makhija",role:"student",problem:"Automated content creation workflow",themes:["content"],anchor:"feni-makhija--student"},
+      {name:"Jay Parekh",role:"professional",problem:"Realtime dashboards & forecast vs actual automation",themes:["finance","data"],anchor:"jay-parekh--working-professional"},
+      {name:"Gaurav Soni",role:"startup",problem:"Finding the right IP to buy and sell",themes:["learning"],anchor:"gaurav-soni--startup-founder"},
+      {name:"Jay Maliya",role:"student",problem:"Transcription app + Kirana store app",themes:["web","agents"],anchor:"jay-maliya--student"},
+      {name:"Pavitro Bera",role:"startup",problem:"Debugging mobile app",themes:["web","learning"],anchor:"pavitro-bera--startup-founder"},
+      {name:"Shlok Gandhi",role:"student",problem:"Research paper automation",themes:["learning"],anchor:"shlok-gandhi--student"},
+      {name:"Aamir Dholia",role:"startup",problem:"Marketing Simplifyte SaaS platform",themes:["sales","content"],anchor:"aamir-dholia--startup-founder"},
+      {name:"Keyur Bhalavat",role:"startup",problem:"Building personal AI sales agent (mini-me)",themes:["agents","sales"],anchor:"keyur-bhalavat--startup-founder"},
+      {name:"Akshat Malviya",role:"startup",problem:"Detailed business analysis",themes:["learning"],anchor:"akshat-malviya--startup-founder"},
+      {name:"Kandoriya Ashish",role:"student",problem:"School bus GPS tracking app (no-code)",themes:["web"],anchor:"kandoriya-ashish--student"},
+      {name:"Krutarth Vaishnav",role:"professional",problem:"IT fresher onboarding & training module",themes:["learning","ops"],anchor:"krutarth-vaishnav--working-professional"},
+      {name:"Arjun Sharma",role:"startup",problem:"SaaS code development",themes:["web"],anchor:"arjun-sharma--startup-founder"},
+      {name:"Maulik Poojara",role:"business",problem:"Sales & marketing automation",themes:["sales","content"],anchor:"maulik-poojara--business-owner--freelancer"},
+      {name:"Alisha",role:"student",problem:"How to automate work",themes:["learning","ops"],anchor:"alisha--student"},
+      {name:"Naresh Golani",role:"professional",problem:"Fundamental analysis of corporates",themes:["finance","data"],anchor:"naresh-m-golani--working-professional"},
+      {name:"Aruja Wadhwa",role:"professional",problem:"Building an easy website",themes:["web"],anchor:"aruja-wadhwa--working-professional"},
+      {name:"Smit Prajapati",role:"student",problem:"Pharma AI model & workflow optimization",themes:["ops","data"],anchor:"smit-prajapati--student"},
+      {name:"Harsh",role:"startup",problem:"Creating lots of content at scale",themes:["content"],anchor:"harsh--startup-founder"},
+      {name:"Vraj Thakkar",role:"student",problem:"AI context limit + pharma compliance agents",themes:["tokens","agents"],anchor:"vraj-thakkar--student"},
+      {name:"Jenil Mehta",role:"student",problem:"AI as personalized adaptive tutor",themes:["learning"],anchor:"jenil-mehta--student"},
+      {name:"Urshita Gajjar",role:"student",problem:"Exploring Claude & prompt engineering",themes:["learning"],anchor:"urshita-gajjar--student"},
+      {name:"Sanyam Chhajed",role:"enabler",problem:"Rapid MVP generation for startups",themes:["web","ops"],anchor:"sanyam-chhajed--ecosystem-enabler"},
+      {name:"Chandresh Kalsariya",role:"startup",problem:"Business process automation",themes:["ops"],anchor:"chandresh-kalsariya--startup-founder"},
+      {name:"Kunjan Atara",role:"business",problem:"AI for graphic design workflow",themes:["learning","content"],anchor:"kunjan-atara--business-owner--freelancer"},
+      {name:"Shailesh Gojiya",role:"developer",problem:"Workflow automation + micro MVP for pitches",themes:["ops","web"],anchor:"shailesh-gojiya--software-engineer--developer"},
+      {name:"Balaji Bathini",role:"professional",problem:"Automate job application process",themes:["ops","sales"],anchor:"balaji-bathini--working-professional"},
+      {name:"Krupa Shah",role:"business",problem:"Social media marketing automation",themes:["content","ops"],anchor:"krupa-shah--business-owner--freelancer"},
+      {name:"Priya Tripathi",role:"startup",problem:"Building an AI team",themes:["agents"],anchor:"priya-tripathi--startup-founder"},
+      {name:"Jays",role:"professional",problem:"Stay current on Claude + build automations",themes:["learning","ops"],anchor:"jays--working-professional"},
+      {name:"Piyush Singh",role:"startup",problem:"Dynamic 3D website generation (DRAFTLY, 125k users)",themes:["web"],anchor:"piyush-singh--startup-founder-draftly-125k-users-38k-signups"},
+      {name:"Bhavik Gohel",role:"professional",problem:"Auto-generate formatted reports from data",themes:["data","ops"],anchor:"bhavik-gohel--working-professional"},
+      {name:"Anil Suthar",role:"developer",problem:"Agent memory, guardrails & context optimization",themes:["agents","tokens"],anchor:"anil-suthar--software-engineer--developer"},
+      {name:"Ravi Patel",role:"business",problem:"File structure & token minimization for AI apps",themes:["tokens","web"],anchor:"ravi-patel--business-owner--freelancer"},
+      {name:"Viral Patel",role:"business",problem:"Learning Claude from scratch",themes:["learning"],anchor:"viral-patel--business-owner--freelancer"},
+      {name:"Jaynil Parmar",role:"professional",problem:"Building WhatsApp bot with Claude",themes:["web","agents"],anchor:"jaynil-parmar--working-professional"},
+      {name:"Pawar Yuvkamal",role:"startup",problem:"Deep research and insightful information",themes:["learning"],anchor:"pawar-yuvkamal--startup-founder"},
+      {name:"Kanishq Tanwar",role:"professional",problem:"Context window problems in agent systems",themes:["tokens","agents"],anchor:"kanishq-tanwar--working-professional"},
+      {name:"Nidhi Prajapati",role:"designer",problem:"How Claude empowers UI/UX designers",themes:["learning","content"],anchor:"nidhi-prajapati--ui-ux-designer"},
+      {name:"Brajrajsingh Rao",role:"student",problem:"Getting diverse outputs instead of same answers",themes:["learning","web"],anchor:"brajrajsingh-rao--student"},
+      {name:"Hussain Lokhandwala",role:"developer",problem:"Claude response speed optimization",themes:["tokens","learning"],anchor:"hussain-j-lokhandwala--software-engineer--developer"},
+      {name:"Aayush Nandola",role:"startup",problem:"Building production AI agents",themes:["agents"],anchor:"aayush-nandola--startup-founder"},
+      {name:"Sagar Mandaliya",role:"business",problem:"Improve trading accuracy with AI",themes:["finance","data"],anchor:"sagar-mandaliya--business-owner--freelancer"},
+      {name:"Het Nayak",role:"professional",problem:"Automate meetings, scheduling & follow-ups for BA work",themes:["ops","data"],anchor:"het-nayak--working-professional"},
+      {name:"Kalarav Vasavada",role:"professional",problem:"Automated website security & performance audit agent",themes:["ops","web"],anchor:"kalarav-vasavada--working-professional"},
+      {name:"Vyas Yukti",role:"startup",problem:"YuktiCare: idea to launch + donation conversion",themes:["web","ops","sales"],anchor:"vyas-yukti--startup-founder"},
+      {name:"Nilesh Hanotia",role:"developer",problem:"Claude API cost management for startup",themes:["tokens"],anchor:"nilesh-hanotia--software-engineer--developer"},
+      {name:"Parth Velvan",role:"business",problem:"MIS reports for business management",themes:["data","finance"],anchor:"parth-velvan--business-owner--freelancer"},
+      {name:"Vasu Ankola",role:"developer",problem:"Hitting token limits building CRM/CMS",themes:["tokens","web"],anchor:"vasu-ankola--software-engineer--developer"},
+      {name:"Anupam Joshi",role:"professional",problem:"Leverage Claude for investor pitches",themes:["learning","sales"],anchor:"anupam-joshi--working-professional"},
+      {name:"Hasti Ramoliya",role:"student",problem:"Startup idea validation + lean marketing",themes:["learning","sales"],anchor:"hasti-ramoliya--students-who-is-looking-for-new-start-up-ideas"},
+      {name:"Prasen Vinchurkar",role:"startup",problem:"Carbon footprint reduction + vision model",themes:["data","ops"],anchor:"prasen-hga-vinchurkar--startup-founder"},
+      {name:"Raghav Ganatra",role:"professional",problem:"Automating reports & dashboards",themes:["data","finance"],anchor:"raghav-ganatra--working-professional"},
+      {name:"Siddharth",role:"professional",problem:"Incubator benchmarking + state startup policy analysis",themes:["data","learning"],anchor:"siddharth--working-professional"},
+      {name:"Akanksha",role:"business",problem:"Manuscript customization & editorial reviews",themes:["content","data"],anchor:"akanksha--business-owner--freelancer"},
+      {name:"Rudra Gandhi",role:"student",problem:"Claude image analysis for CFA prep",themes:["learning","finance"],anchor:"rudra-gandhi--student"},
+      {name:"Aayush Singhvi",role:"student",problem:"Financial modeling & statement analysis with Claude",themes:["finance","learning"],anchor:"aayush-singhvi--student"},
+      {name:"Siddharth Jain",role:"student",problem:"Exploring Claude",themes:["learning"],anchor:"siddharth-jain--student"},
+      {name:"Divyesh Dabhi",role:"business",problem:"Learning Claude for marketing agency",themes:["learning","content"],anchor:"divyesh-dabhi--business-owner--freelancer"},
+      {name:"Anarv Vasavada",role:"developer",problem:"AI-to-AI influence observability (TraceIQ)",themes:["agents","data"],anchor:"anarv-vasavada--software-engineer--developer"},
+      {name:"Yash Panchal",role:"professional",problem:"Automate GST, TDS & ITR reconciliation for CA practice",themes:["finance","ops"],anchor:"yash-panchal--working-professional"},
+      {name:"Amrita Chaudhary",role:"professional",problem:"Excel automation, dashboards & birthday mailers",themes:["data","ops"],anchor:"amrita-chaudhary--working-professional"},
+      {name:"Kunal Raychandani",role:"developer",problem:"Claude plan limits + IP camera edge AI",themes:["tokens","web"],anchor:"kunal-raychandani--software-engineer--developer"},
+      {name:"Vivan Sheth",role:"student",problem:"Very limited chat quota",themes:["tokens","learning"],anchor:"vivan-sheth--student"},
+      {name:"CA Kamlesh Jain",role:"professional",problem:"CA practice automation — reports & dashboards",themes:["finance","ops"],anchor:"ca-kamlesh-jain--working-professional-ca"},
+      {name:"Himanshu Majithiya",role:"professional",problem:"Data extraction for office management",themes:["data","ops"],anchor:"himanshu-majithiya--working-professional"},
+      {name:"Jinay Shah",role:"student",problem:"Study assistance + inventory management site",themes:["learning","web"],anchor:"jinay-shah--student"},
+      {name:"Bhupesh Sood",role:"professional",problem:"Compliance checklists & document automation",themes:["data","ops"],anchor:"bhupesh-sood--working-professional"},
+      {name:"Priyanka M",role:"professional",problem:"Unleash full AI potential in daily work",themes:["learning","ops"],anchor:"priyanka-m--working-professional"},
+      {name:"Raju Vyas",role:"business",problem:"Lead generation automation",themes:["sales"],anchor:"raju-vyas--business-owner--freelancer"},
+      {name:"CS Jaymeen Trivedi",role:"professional",problem:"Client management + WhatsApp reminder automation",themes:["ops","finance"],anchor:"cs-jaymeen-trivedi--working-professional"},
+      {name:"Raj Savaliya",role:"student",problem:"Context/limit issues while building website",themes:["tokens","web"],anchor:"raj-savaliya--student"},
+      {name:"Chirag Patel",role:"business",problem:"Automate app & software development process",themes:["ops","web"],anchor:"chirag-patel--business-owner--freelancer"},
+      {name:"Utsav Shah",role:"professional",problem:"Employee task tracking dashboard",themes:["ops","data"],anchor:"utsav-shah--working-professional"}
+    ];
+
+    // ==========================================
+    // ROLE CONFIG
+    // ==========================================
+    const roleConfig = {
+      startup:      { label: "Startup Founder",       cssClass: "role-startup" },
+      business:     { label: "Business Owner",         cssClass: "role-business" },
+      professional: { label: "Working Professional",   cssClass: "role-professional" },
+      developer:    { label: "Developer",              cssClass: "role-developer" },
+      student:      { label: "Student",                cssClass: "role-student" },
+      designer:     { label: "Designer",               cssClass: "role-designer" },
+      enabler:      { label: "Ecosystem Enabler",      cssClass: "role-enabler" }
+    };
+
+    const themeConfig = {
+      tokens:   { label: "Token Limits",  cssClass: "theme-tokens" },
+      sales:    { label: "Sales",         cssClass: "theme-sales" },
+      finance:  { label: "Finance",       cssClass: "theme-finance" },
+      ops:      { label: "Ops",           cssClass: "theme-ops" },
+      content:  { label: "Content",       cssClass: "theme-content" },
+      agents:   { label: "Agents",        cssClass: "theme-agents" },
+      rag:      { label: "RAG",           cssClass: "theme-rag" },
+      data:     { label: "Data",          cssClass: "theme-data" },
+      web:      { label: "Web/App",       cssClass: "theme-web" },
+      learning: { label: "Learning",      cssClass: "theme-learning" }
+    };
+
+    const GUIDE_BASE = "https://github.com/kapil303196/claude-meetup-session-guide/blob/main/session-guide.md#";
+
+    // ==========================================
+    // STATE
+    // ==========================================
+    let activeRole = "all";
+    let activeThemes = new Set(["all"]);
+    let searchQuery = "";
+
+    // ==========================================
+    // RENDER
+    // ==========================================
+    function renderCards() {
+      const grid = document.getElementById("attendeeGrid");
+      const filtered = attendees.filter(a => {
+        const matchRole = activeRole === "all" || a.role === activeRole;
+        const matchTheme = activeThemes.has("all") || a.themes.some(t => activeThemes.has(t));
+        const q = searchQuery.toLowerCase();
+        const matchSearch = !q || a.name.toLowerCase().includes(q) || a.problem.toLowerCase().includes(q);
+        return matchRole && matchTheme && matchSearch;
+      });
+
+      document.getElementById("resultCount").textContent = filtered.length;
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `<div class="no-results"><h3>No attendees found</h3><p>Try adjusting your search or filters.</p></div>`;
+        return;
+      }
+
+      grid.innerHTML = filtered.map((a, i) => {
+        const rc = roleConfig[a.role] || roleConfig.professional;
+        const themePills = a.themes.slice(0, 3).map(t => {
+          const tc = themeConfig[t] || { label: t, cssClass: "theme-learning" };
+          return `<span class="theme-pill ${tc.cssClass}">${tc.label}</span>`;
+        }).join('');
+
+        return `
+          <div class="attendee-card" style="animation-delay:${Math.min(i * 20, 300)}ms" onclick="window.open('${GUIDE_BASE}${a.anchor}','_blank')">
+            <div class="card-top">
+              <div class="card-name">${escHtml(a.name)}</div>
+              <span class="role-badge ${rc.cssClass}">${rc.label}</span>
+            </div>
+            <div class="card-problem">${escHtml(a.problem)}</div>
+            <div class="card-footer">
+              <div class="theme-pills">${themePills}</div>
+              <a class="view-link" href="${GUIDE_BASE}${a.anchor}" target="_blank" rel="noopener" onclick="event.stopPropagation()">View Analysis →</a>
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function escHtml(str) {
+      return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    }
+
+    // ==========================================
+    // FILTERS
+    // ==========================================
+    document.getElementById("roleFilters").addEventListener("click", e => {
+      const btn = e.target.closest("[data-role]");
+      if (!btn) return;
+      activeRole = btn.dataset.role;
+      document.querySelectorAll("[data-role]").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      renderCards();
+    });
+
+    document.getElementById("themeFilters").addEventListener("click", e => {
+      const btn = e.target.closest("[data-theme]");
+      if (!btn) return;
+      const theme = btn.dataset.theme;
+
+      if (theme === "all") {
+        activeThemes = new Set(["all"]);
+      } else {
+        activeThemes.delete("all");
+        if (activeThemes.has(theme)) {
+          activeThemes.delete(theme);
+          if (activeThemes.size === 0) activeThemes.add("all");
+        } else {
+          activeThemes.add(theme);
+        }
+      }
+
+      document.querySelectorAll("[data-theme]").forEach(b => {
+        b.classList.remove("active", "active-theme");
+      });
+
+      if (activeThemes.has("all")) {
+        document.querySelector("[data-theme='all']").classList.add("active");
+      } else {
+        activeThemes.forEach(t => {
+          const el = document.querySelector(`[data-theme='${t}']`);
+          if (el) el.classList.add("active", "active-theme");
+        });
+      }
+
+      renderCards();
+    });
+
+    document.getElementById("searchInput").addEventListener("input", e => {
+      searchQuery = e.target.value;
+      renderCards();
+    });
+
+    document.getElementById("clearBtn").addEventListener("click", () => {
+      searchQuery = "";
+      activeRole = "all";
+      activeThemes = new Set(["all"]);
+      document.getElementById("searchInput").value = "";
+      document.querySelectorAll("[data-role]").forEach(b => b.classList.remove("active"));
+      document.querySelector("[data-role='all']").classList.add("active");
+      document.querySelectorAll("[data-theme]").forEach(b => b.classList.remove("active","active-theme"));
+      document.querySelector("[data-theme='all']").classList.add("active");
+      renderCards();
+    });
+
+    // ==========================================
+    // COUNTER ANIMATION
+    // ==========================================
+    function animateCounters() {
+      document.querySelectorAll("[data-target]").forEach(el => {
+        const target = parseInt(el.dataset.target);
+        const duration = 1200;
+        const start = performance.now();
+        function update(now) {
+          const elapsed = now - start;
+          const progress = Math.min(elapsed / duration, 1);
+          const ease = 1 - Math.pow(1 - progress, 3);
+          el.textContent = Math.round(ease * target);
+          if (progress < 1) requestAnimationFrame(update);
+        }
+        requestAnimationFrame(update);
+      });
+    }
+
+    // Intersection Observer for counter
+    const statsBar = document.querySelector(".stats-bar");
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          animateCounters();
+          observer.disconnect();
+        }
+      });
+    }, { threshold: 0.3 });
+    observer.observe(statsBar);
+
+    // ==========================================
+    // INIT
+    // ==========================================
+    renderCards();
+  </script>
+</body>
+</html>
