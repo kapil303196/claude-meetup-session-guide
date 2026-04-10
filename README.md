@@ -1,22 +1,37 @@
-# Claude Code Meetup — Ahmedabad 2026
+# Claude.ai Meetup — Ahmedabad 2026
 
 ![Attendees](https://img.shields.io/badge/Attendees-129-2563EB?style=flat-square)
 ![Date](https://img.shields.io/badge/Date-April%202026-F97316?style=flat-square)
 ![Location](https://img.shields.io/badge/Location-Ahmedabad%2C%20India-3FB950?style=flat-square)
+![No Terminal Needed](https://img.shields.io/badge/No%20Terminal-Needed-3FB950?style=flat-square)
 ![Roles](https://img.shields.io/badge/Roles-7-BC8CFF?style=flat-square)
 ![Themes](https://img.shields.io/badge/Themes-10-8B949E?style=flat-square)
 
-> The largest Claude Code gathering in Ahmedabad. 129 builders, founders, developers, and AI enthusiasts deep-diving into real-world AI automation challenges.
+> The largest Claude gathering in Ahmedabad. 129 founders, business owners, professionals, and students discovering real-world AI automation — all from their browser at [claude.ai](https://claude.ai). **No coding, no terminal, no installation required.**
 
 **[View the Live Site](https://kapil303196.github.io/claude-meetup-session-guide/)** · **[Read the Session Guide](./session-guide.md)**
 
 ---
 
+## Getting Started (No Terminal Needed)
+
+Everything in this guide works directly at [claude.ai](https://claude.ai) — in your browser.
+
+| Step | What to do |
+|------|-----------|
+| **1. Open Claude** | Go to [claude.ai](https://claude.ai) in your browser. Sign up free. |
+| **2. Start a chat** | Click "New chat" and type what you need in plain English. |
+| **3. Create a Project** | Click Projects (left sidebar) → New Project → add your business context in Settings → Project Instructions. |
+| **4. Upload files** | Click the paperclip icon in any chat to upload Excel, PDF, Word, or CSV files. |
+| **5. Connect tools** | Go to Settings → Integrations to connect Google Drive, Gmail, Google Calendar, GitHub, or Notion. |
+
+---
+
 ## About the Session
 
-This repository documents the Claude Code Meetup held in Ahmedabad, April 2026 — a hands-on session where 129 attendees across 7 professional roles explored 10 major AI automation themes. Each participant shared a burning problem they wanted to solve with Claude, and the session produced a comprehensive guide with personalized analysis and actionable solutions.
+This repository documents the Claude Meetup held in Ahmedabad, April 2026 — a hands-on session where 129 attendees across 7 professional roles explored 10 major AI automation themes. Each participant shared a burning problem they wanted to solve with Claude, and the session produced a comprehensive guide with personalised analysis and actionable solutions.
 
-Topics ranged from token/context limit management and RAG system design to finance automation, sales lead generation, and building production-ready AI agents — all powered by Claude.
+Topics ranged from finance automation and sales outreach to content creation, data analysis, and building simple apps — all accessible directly from [claude.ai](https://claude.ai) in your browser.
 
 ---
 
